@@ -1,4 +1,5 @@
-# Souce: https://www.techiedelight.com/find-pair-with-given-sum-array/
+# Source: https://www.techiedelight.com/find-pair-with-given-sum-array/
+
 import random
 
 par = []
@@ -9,14 +10,33 @@ Sum = 0
 
 a = 0
 
-for b in range(5):
+d = 10
 
-    array.append(random.randint(1, 6))
+Sum = random.randint(1, 18)
 
-    Sum = random.randint(1, 18)
+val = []
 
-for c in range(len(array)+1):
+for b in range(d):
+
+    val.append(random.randint(1, 5))
+
+    if val[b] in array:
+
+        print(val[b])
+
+        continue
+
+    else:
+
+        array.append(val[b])
+
+    print(array)
+
+print(val)
+
+"""for c in array:
 
     if array[c] + a == Sum:
 
         print()
+"""
