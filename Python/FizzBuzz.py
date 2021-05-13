@@ -1,3 +1,5 @@
+# Source: https://goalkicker.com/AlgorithmsBook/
+
 c5 = 0
 
 d3 = 0
