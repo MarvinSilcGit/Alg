@@ -16,17 +16,19 @@ while a == True:
 
    if b % 3 == 0:
 
-      print(b % 3 == 0)
+      print(b)
 
-      ##print("Fizz")
-
-      print(d)
+      d += 1
 
    elif b % 5 == 0:
 
-         c += 1
+      c += 1
 
-        ## print("Buzz")
+      print(c)
+
+   elif b % 3 == 0 and b % 5 == 0:
+
+      print("FizzBuzz")
 
    else:
 
