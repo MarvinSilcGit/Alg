@@ -8,7 +8,7 @@ for b in range(101):
 
    if b % 3 == 0 and b % 5 == 0 and b != 0:
 
-      print(b, "is FizzBuzz")
+      print(b, "is Java")
 
       d3 += 1
 
@@ -30,4 +30,4 @@ print("Has", d3, "Fizz numbers")
 
 print("Has", c5, "Buzz numbers")
 
-print("Has", e35, "FizzBuzz numbers")
+print("Has", e35, "Java numbers")
