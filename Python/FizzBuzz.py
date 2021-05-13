@@ -1,35 +1,35 @@
 # Source: https://goalkicker.com/AlgorithmsBook/
 
-c5 = 0
+Fizz = 0
 
-d3 = 0
+Buzz = 0
 
-e35 = 0
+FizzBuzz = 0
 
 for b in range(101):
 
    if b % 3 == 0 and b % 5 == 0 and b != 0:
 
-      print(b, "is Java")
+      print(b, "is FizzBuzz")
 
-      d3 += 1
+      Fizz += 1
 
-      c5 += 1
+      Buzz += 1
 
-      e35 += 1
+      FizzBuzz += 1
 
    elif b % 3 == 0:
 
-      d3 += 1
+      Fizz += 1
 
    elif b % 5 == 0:
 
-      c5 += 1
+      Buzz += 1
 
 print()
 
-print("Has", d3, "Fizz numbers")
+print("Has", Fizz, "Fizz numbers")
 
-print("Has", c5, "Buzz numbers")
+print("Has", Buzz, "Buzz numbers")
 
-print("Has", e35, "Java numbers")
+print("Has", FizzBuzz, "FizzBuzz numbers")
