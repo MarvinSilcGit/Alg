@@ -40,6 +40,8 @@ while a == True:
 
       b += 1
 
+print()
+
 print("Has", d, "Fizz numbers")
 
 print("Has", c, "Buzz numbers")
