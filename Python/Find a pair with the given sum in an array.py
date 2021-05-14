@@ -30,17 +30,13 @@ a = 0
 
 par = []
 
-for b in range(len(array)):
+while True:
 
     if array[b] == array[a]:
 
+        b += 1
+
         continue
-
-    elif a + 1 == len(array):
-
-        print("aaaaa")
-
-        break
 
     else:
 
@@ -50,19 +46,18 @@ for b in range(len(array)):
 
             par.append(array[a])
 
-        else:
+    if b + 1 == len(array):
 
-            if len(array) == b+1:
+        b = 0
 
-                b = 0
+        a += 1
 
-                a += 1
+    else:
 
-                print("ss", a, b)
+        b += 1
 
-            else:
+    if a+1 == len(array):
 
-                continue
+        break
 
-print(goal)
 print(par)
