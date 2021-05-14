@@ -38,7 +38,7 @@ for b in range(len(array)):
 
     elif a == len(array):
 
-        print(a)
+        print("ssa")
 
         break
 
@@ -49,26 +49,28 @@ for b in range(len(array)):
             par.append(array[b])
 
             par.append(array[a])
-            print(b)
 
             print(len(array))
+
+            print(b)
+
             if len(array) == b:
 
                 b = 0
 
-                a += 1
+                a = a+1
 
                 print("ss")
 
                 continue
 
             else:
-
+                print("qqq")
                 continue
 
         else:
-
+            print("aaaa")
             continue
 
-print(goal)
-print(par)
+# print(goal)
+# print(par)
