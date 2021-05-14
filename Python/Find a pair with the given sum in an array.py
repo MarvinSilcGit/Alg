@@ -20,7 +20,7 @@ for b in range(15):
 
         array.append(val[b])
 
-    print(array)
+print(array)
 
 b = 0
 
@@ -32,13 +32,13 @@ par = []
 
 for b in range(len(array)):
 
+    print(b)
+
     if array[b] == array[a]:
 
         continue
 
     elif a == len(array):
-
-        print("ssa")
 
         break
 
@@ -50,9 +50,7 @@ for b in range(len(array)):
 
             par.append(array[a])
 
-            print(len(array))
-
-            print(b)
+            print(a, "sssaaa")
 
             if len(array) == b:
 
@@ -69,7 +67,8 @@ for b in range(len(array)):
                 continue
 
         else:
-            print("aaaa")
+
+            print(len(array))
             continue
 
 # print(goal)
