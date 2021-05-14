@@ -2,27 +2,17 @@
 
 import random
 
-par = []
-
 array = []
-
-Sum = 0
-
-a = 0
-
-d = 10
-
-Sum = random.randint(1, 18)
 
 val = []
 
-for b in range(d):
+goal = random.randint(1, 30)
 
-    val.append(random.randint(1, 5))
+for b in range(15):
+
+    val.append(random.randint(1, 15))
 
     if val[b] in array:
-
-        print(val[b])
 
         continue
 
@@ -32,11 +22,53 @@ for b in range(d):
 
     print(array)
 
-print(val)
+b = 0
 
-"""for c in array:
+Sum = 0
 
-    if array[c] + a == Sum:
+a = 0
 
-        print()
-"""
+par = []
+
+for b in range(len(array)):
+
+    if array[b] == array[a]:
+
+        continue
+
+    elif a == len(array):
+
+        print(a)
+
+        break
+
+    else:
+
+        if array[b] + array[a] == goal:
+
+            par.append(array[b])
+
+            par.append(array[a])
+            print(b)
+
+            print(len(array))
+            if len(array) == b:
+
+                b = 0
+
+                a += 1
+
+                print("ss")
+
+                continue
+
+            else:
+
+                continue
+
+        else:
+
+            continue
+
+print(goal)
+print(par)
