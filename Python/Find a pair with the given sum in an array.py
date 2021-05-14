@@ -30,7 +30,7 @@ a = 0
 
 par = []
 
-while True:
+while b != len(array):
 
     if array[b] == array[a]:
 
@@ -38,26 +38,27 @@ while True:
 
         continue
 
-    else:
+    elif array[b] + array[a] == goal:
 
-        if array[b] + array[a] == goal:
+        if array[b] and array[a] not in par:
 
             par.append(array[b])
 
             par.append(array[a])
 
-    if b + 1 == len(array):
+        else:
 
-        b = 0
+            par.append(array[b])
+
+            par.append(array[a])
+
+    b += 1
+
+    if b == len(array)-1:
 
         a += 1
 
-    else:
+        b = a+1
 
-        b += 1
-
-    if a+1 == len(array):
-
-        break
-
+print(goal)
 print(par)
