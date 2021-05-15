@@ -40,17 +40,9 @@ while b != len(array):
 
     elif array[b] + array[a] == goal:
 
-        if array[b] and array[a] not in par:
+        par.append(array[b])
 
-            par.append(array[b])
-
-            par.append(array[a])
-
-        else:
-
-            par.append(array[b])
-
-            par.append(array[a])
+        par.append(array[a])
 
     b += 1
 
