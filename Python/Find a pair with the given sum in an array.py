@@ -38,15 +38,27 @@ while b != len(array):
 
     elif array[b] + array[a] == goal or array[b] - array[a] == goal:
 
-        par.append((array[b], array[a]))
+        if array[a] and array[b] not in par:
 
-    b += 1
+            par.append(array[b])
+
+            par.append(array[a])
+
+        else:
+
+            pass
 
     if b == len(array)-1:
 
         a += 1
 
         b = 0
+
+        continue
+
+    else:
+
+        b += 1
 
 print(goal)
 print(par)
