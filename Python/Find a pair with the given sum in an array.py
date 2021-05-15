@@ -36,9 +36,7 @@ while b != len(array):
 
         continue
 
-    elif array[b] + array[a] == goal:
-
-        #if array[b] and array[a] not in par[0][0]:
+    elif array[b] + array[a] == goal or array[b] - array[a] == goal:
 
         par.append((array[b], array[a]))
 
@@ -52,4 +50,3 @@ while b != len(array):
 
 print(goal)
 print(par)
-print(len(par))
