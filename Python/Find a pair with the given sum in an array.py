@@ -24,8 +24,6 @@ print(array)
 
 b = 0
 
-Sum = 0
-
 a = 0
 
 par = []
@@ -40,9 +38,9 @@ while b != len(array):
 
     elif array[b] + array[a] == goal:
 
-        if array[b] and array[a] not in par:
+        #if array[b] and array[a] not in par[0][0]:
 
-            par.append((array[b], array[a]))
+        par.append((array[b], array[a]))
 
     b += 1
 
@@ -54,3 +52,4 @@ while b != len(array):
 
 print(goal)
 print(par)
+print(len(par))
