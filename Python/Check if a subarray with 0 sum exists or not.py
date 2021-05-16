@@ -4,13 +4,13 @@
 
 import random
 
-SubSet0 = {0}
+SubSet0 = {31}
 
-SubSet1 = {0}
+SubSet1 = {31}
 
-SubSet2 = {0}
+SubSet2 = {31}
 
-MasterSet = {0}
+MasterSet = {31}
 
 a = 0
 
@@ -18,27 +18,28 @@ max = 15
 
 while a != max/3:
 
-    if not SubSet0.clear():
+    if 31 in SubSet0.clear():
 
-        SubSet0.remove(0)
+        SubSet0.remove(31)
 
     else:
 
         SubSet0.add(random.randint(-30, 30))
 
-    if not SubSet1.clear():
+    if 31 in SubSet1.clear():
 
-        SubSet1.remove(0)
+        SubSet1.remove(31)
 
     else:
 
         SubSet1 = random.randint(-30, 30)
 
-    if not SubSet2.clear():
+    if 31 in SubSet2.clear():
 
-        SubSet2.remove(0)
+        SubSet2.remove(31)
 
     else:
+
         SubSet2 = random.randint(-30, 30)
 
     a += 1
