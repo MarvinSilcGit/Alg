@@ -2,9 +2,12 @@
 
 import random
 
-set = {}
+s = {random.randint(1, 30)}
 
-for a in range(1, 15):
+for a in range(0, 15):
 
-    set = random.randint(30, -29)
+    s.add(random.randint(1, 30))
 
+    print(a)
+
+print(s)
