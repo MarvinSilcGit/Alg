@@ -2,12 +2,10 @@
 
 import random
 
-s = {random.randint(1, 30)}
+s = {random.randint(-30, 30)}
 
 for a in range(0, 15):
 
-    s.add(random.randint(1, 30))
-
-    print(a)
+    s.add(random.randint(-30, 30))
 
 print(s)
