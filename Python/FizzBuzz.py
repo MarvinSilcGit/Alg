@@ -1,10 +1,6 @@
 # Source: https://goalkicker.com/AlgorithmsBook/
 
-Fizz = 0
-
-Buzz = 0
-
-FizzBuzz = 0
+Fizz, Buzz, FizzBuzz = 0, 0, 0
 
 for b in range(101):
 

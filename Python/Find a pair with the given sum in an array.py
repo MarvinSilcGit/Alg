@@ -2,9 +2,7 @@
 
 import random
 
-array = []
-
-val = []
+array, val, par = [], [], []
 
 goal = random.randint(1, 30)
 
@@ -22,11 +20,7 @@ for b in range(15):
 
 print(array)
 
-b = 0
-
-a = 0
-
-par = []
+b, a = 0, 0
 
 while b != len(array):
 
