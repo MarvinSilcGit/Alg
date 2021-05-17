@@ -18,33 +18,25 @@ max = 15
 
 while a != max/3:
 
-    if 31 in SubSet0.clear():
+    if a == 0:
 
-        SubSet0.remove(31)
+        SubSet0.clear()
+
+        SubSet1.clear()
+
+        SubSet2.clear()
 
     else:
 
         SubSet0.add(random.randint(-30, 30))
 
-    if 31 in SubSet1.clear():
+        SubSet1.add(random.randint(-30, 30))
 
-        SubSet1.remove(31)
-
-    else:
-
-        SubSet1 = random.randint(-30, 30)
-
-    if 31 in SubSet2.clear():
-
-        SubSet2.remove(31)
-
-    else:
-
-        SubSet2 = random.randint(-30, 30)
+        SubSet2.add(random.randint(-30, 30))
 
     a += 1
 
-MasterSet.remove(0)
+MasterSet.remove(31)
 
 MasterSet.add(SubSet0)
 
