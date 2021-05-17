@@ -10,7 +10,7 @@ SubSet1 = {31}
 
 SubSet2 = {31}
 
-MasterSet = {31}
+MasterSet = []
 
 a = 0
 
@@ -36,12 +36,10 @@ while a != max/3:
 
     a += 1
 
-MasterSet.remove(31)
+MasterSet.append(SubSet0)
 
-MasterSet.add(SubSet0)
+MasterSet.append(SubSet1)
 
-MasterSet.add(SubSet1)
-
-MasterSet.add(SubSet2)
+MasterSet.append(SubSet2)
 
 print(MasterSet)
