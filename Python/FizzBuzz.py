@@ -2,9 +2,9 @@
 
 Fizz, Buzz, FizzBuzz = 0, 0, 0
 
-for b in range(101):
+for Counter in range(101):
 
-   if b % 3 == 0 and b % 5 == 0 and b != 0:
+   if Counter % 3 == 0 and Counter % 5 == 0 and Counter != 0:
 
       Fizz += 1
 
@@ -12,11 +12,11 @@ for b in range(101):
 
       FizzBuzz += 1
 
-   elif b % 3 == 0:
+   elif Counter % 3 == 0:
 
       Fizz += 1
 
-   elif b % 5 == 0:
+   elif Counter % 5 == 0:
 
       Buzz += 1
 

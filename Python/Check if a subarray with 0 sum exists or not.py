@@ -26,35 +26,29 @@ while Counter != ArrLen//3:
 
         for Counter1 in range(len(MasterArr[0])):
 
-            ZSum += Counter1
-
-            #print(ZSum)
+            ZSum += MasterArr[0][Counter1]
 
         for Counter2 in range(len(MasterArr[1])):
 
-           ZSum1 += Counter2
-
-            #print(ZSum1)
+            ZSum1 += MasterArr[1][Counter2]
 
         for Counter3 in range(len(MasterArr[2])):
 
-            ZSum2 += Counter3
-
-            print(ZSum2)
+            ZSum2 += MasterArr[2][Counter3]
 
 print(MasterArr)
 
 if ZSum == 0:
 
-    print("The Subarray ", MasterArr[0], " is sum 0")
+    print("The Subarray 0", MasterArr[0], " is sum 0")
 
 elif ZSum1 == 0:
 
-    print("The Subarray ", MasterArr[1], " is sum 0")
+    print("The Subarray 1", MasterArr[1], " is sum 0")
 
-elif ZSum2 == 1:
+elif ZSum2 == 0:
 
-    print("The Subarray ", MasterArr[2], " is sum 0")
+    print("The Subarray 2", MasterArr[2], " is sum 0")
 
 elif ZSum and ZSum1 and ZSum2 == 0:
 

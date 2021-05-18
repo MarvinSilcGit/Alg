@@ -2,57 +2,55 @@
 
 import random
 
-array, val, par = [], [], []
+Counter1, Counter2, Array, val, par = 0, 0, [], [], []
 
 goal = random.randint(1, 30)
 
-for b in range(15):
+for Counter in range(15):
 
     val.append(random.randint(1, 15))
 
-    if val[b] in array:
+    if val[Counter] in Array:
 
         continue
 
     else:
 
-        array.append(val[b])
+        Array.append(val[Counter])
 
-print(array)
+print(Array)
 
-b, a = 0, 0
+while Counter1 != len(Array):
 
-while b != len(array):
+    if Array[Counter1] == Array[Counter1]:
 
-    if array[b] == array[a]:
-
-        b += 1
+        Counter1 += 1
 
         continue
 
-    elif array[b] + array[a] == goal or array[b] - array[a] == goal:
+    elif Array[Counter1] + Array[Counter2] == goal or Array[Counter1] - Array[Counter2] == goal:
 
-        if array[a] and array[b] not in par:
+        if Array[Counter2] and Array[Counter1] not in par:
 
-            par.append(array[b])
+            par.append(Array[Counter1])
 
-            par.append(array[a])
+            par.append(Array[Counter2])
 
         else:
 
             pass
 
-    if b == len(array)-1:
+    if Counter1 == len(Array)-1:
 
-        a += 1
+        Counter2 += 1
 
-        b = 0
+        Counter1 = 0
 
         continue
 
     else:
 
-        b += 1
+        Counter1 += 1
 
 print(goal)
 print(par)
