@@ -20,8 +20,8 @@ for Counter in range(101):
 
       Buzz += 1
 
-print("Has", Fizz, "Fizz numbers")
+print("Has %d Fizz numbers" % Fizz)
 
-print("Has", Buzz, "Buzz numbers")
+print("Has %d Buzz numbers" % Buzz)
 
-print("Has", FizzBuzz, "FizzBuzz numbers")
+print("Has %d FizzBuzz numbers" % FizzBuzz)

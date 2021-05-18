@@ -1,5 +1,5 @@
 # Source: https://www.techiedelight.com/check-subarray-with-0-sum-exists-not/
-# Fix the variables names of past files;
+
 import random
 
 Counter, ArrLen, ZeroSum, ZeroSum1, ZeroSum2, SubArr0, SubArr1, SubArr2, MasterArr = 0, 15, 0, 0, 0, [], [], [], []
@@ -38,17 +38,9 @@ print(MasterArr)
 
 print()
 
-if ZeroSum == 0:
+if ZeroSum == 0 or ZeroSum1 == 0 or ZeroSum2 == 0:
 
-    print("The Subarray 0", MasterArr[0], " is sum 0")
-
-elif ZeroSum1 == 0:
-
-    print("The Subarray 1", MasterArr[1], " is sum 0")
-
-elif ZeroSum2 == 0:
-
-    print("The Subarray 2", MasterArr[2], " is sum 0")
+    print("The Subarray %d is sum 0" % 1)
 
 elif ZeroSum and ZeroSum1 and ZeroSum2 == 0:
 
