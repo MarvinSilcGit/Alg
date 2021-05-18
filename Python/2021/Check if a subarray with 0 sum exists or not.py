@@ -42,7 +42,7 @@ if ZeroSum == 0 or ZeroSum1 == 0 or ZeroSum2 == 0:
 
     print("The Subarray %d is sum 0" % 1)
 
-elif ZeroSum and ZeroSum1 and ZeroSum2 == 0:
+elif ZeroSum == 0 and ZeroSum1 == 0 and ZeroSum2 == 0:
 
     print("All the Subarrays are sum 0")
 
