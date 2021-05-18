@@ -2,9 +2,7 @@
 # Fix the variables names of past files;
 import random
 
-SubArr0, SubArr1, SubArr2, MasterArr = [], [], [], []
-
-Counter, ArrLen, ZSum, ZSum1, ZSum2 = 0, 15, 0, 0, 0
+Counter, ArrLen, ZeroSum, ZeroSum1, ZeroSum2, SubArr0, SubArr1, SubArr2, MasterArr = 0, 15, 0, 0, 0, [], [], [], []
 
 while Counter != ArrLen//3:
 
@@ -26,30 +24,34 @@ while Counter != ArrLen//3:
 
         for Counter1 in range(len(MasterArr[0])):
 
-            ZSum += MasterArr[0][Counter1]
+            ZeroSum += MasterArr[0][Counter1]
 
         for Counter2 in range(len(MasterArr[1])):
 
-            ZSum1 += MasterArr[1][Counter2]
+            ZeroSum1 += MasterArr[1][Counter2]
 
         for Counter3 in range(len(MasterArr[2])):
 
-            ZSum2 += MasterArr[2][Counter3]
+            ZeroSum2 += MasterArr[2][Counter3]
 
 print(MasterArr)
 
-if ZSum == 0:
+if ZeroSum == 0:
 
     print("The Subarray 0", MasterArr[0], " is sum 0")
 
-elif ZSum1 == 0:
+elif ZeroSum1 == 0:
 
     print("The Subarray 1", MasterArr[1], " is sum 0")
 
-elif ZSum2 == 0:
+elif ZeroSum2 == 0:
 
     print("The Subarray 2", MasterArr[2], " is sum 0")
 
-elif ZSum and ZSum1 and ZSum2 == 0:
+elif ZeroSum and ZeroSum1 and ZeroSum2 == 0:
 
     print("All the Subarrays are sum 0")
+
+elif ZeroSum + ZeroSum1 + ZeroSum2 == 0:
+
+    print("The Array is sum 0")
