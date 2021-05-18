@@ -4,9 +4,9 @@ import random
 
 SubArr0, SubArr1, SubArr2, MasterArr = [], [], [], []
 
-Counter, SetLen = 0, 15
+Counter, ArrLen, ZSum, ZSum1, ZSum2 = 0, 15, 0, 0, 0
 
-while Counter != SetLen//3:
+while Counter != ArrLen//3:
 
     SubArr0.append(random.randint(-30, 30))
 
@@ -16,15 +16,46 @@ while Counter != SetLen//3:
 
     Counter += 1
 
-MasterArr.append(SubArr0)
+    if Counter == ArrLen//3:
 
-MasterArr.append(SubArr1)
+        MasterArr.append(SubArr0)
 
-MasterArr.append(SubArr2)
+        MasterArr.append(SubArr1)
+
+        MasterArr.append(SubArr2)
+
+        for Counter1 in range(len(MasterArr[0])):
+
+            ZSum += Counter1
+
+            #print(ZSum)
+
+        for Counter2 in range(len(MasterArr[1])):
+
+           ZSum1 += Counter2
+
+            #print(ZSum1)
+
+        for Counter3 in range(len(MasterArr[2])):
+
+            ZSum2 += Counter3
+
+            print(ZSum2)
 
 print(MasterArr)
 
-for Counter2 in range(len(MasterArr[0])):
-    print(MasterArr[Counter2])
+if ZSum == 0:
 
-    print(Counter2)
+    print("The Subarray ", MasterArr[0], " is sum 0")
+
+elif ZSum1 == 0:
+
+    print("The Subarray ", MasterArr[1], " is sum 0")
+
+elif ZSum2 == 1:
+
+    print("The Subarray ", MasterArr[2], " is sum 0")
+
+elif ZSum and ZSum1 and ZSum2 == 0:
+
+    print("All the Subarrays are sum 0")
