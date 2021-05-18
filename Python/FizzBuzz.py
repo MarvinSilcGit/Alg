@@ -6,8 +6,6 @@ for b in range(101):
 
    if b % 3 == 0 and b % 5 == 0 and b != 0:
 
-      print(b, "is FizzBuzz")
-
       Fizz += 1
 
       Buzz += 1
@@ -21,8 +19,6 @@ for b in range(101):
    elif b % 5 == 0:
 
       Buzz += 1
-
-print()
 
 print("Has", Fizz, "Fizz numbers")
 

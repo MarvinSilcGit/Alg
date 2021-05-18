@@ -2,39 +2,29 @@
 # Fix the variables names of past files;
 import random
 
-SubSet0, SubSet1, SubSet2 = {31}, {31}, {31}
+SubArr0, SubArr1, SubArr2, MasterArr = [], [], [], []
 
-MasterSet = []
+Counter, SetLen = 0, 15
 
-Counter = 0
+while Counter != SetLen//3:
 
-SetLen = 15
+    SubArr0.append(random.randint(-30, 30))
 
-while Counter != SetLen//3+1:
+    SubArr1.append(random.randint(-30, 30))
 
-    if Counter == 0:
-
-        SubSet0.clear()
-
-        SubSet1.clear()
-
-        SubSet2.clear()
-
-    else:
-
-        SubSet0.add(random.randint(-30, 30))
-
-        SubSet1.add(random.randint(-30, 30))
-
-        SubSet2.add(random.randint(-30, 30))
+    SubArr2.append(random.randint(-30, 30))
 
     Counter += 1
 
-MasterSet.append(SubSet0)
+MasterArr.append(SubArr0)
 
-MasterSet.append(SubSet1)
+MasterArr.append(SubArr1)
 
-MasterSet.append(SubSet2)
+MasterArr.append(SubArr2)
 
-print(MasterSet)
+print(MasterArr)
 
+for Counter2 in range(len(MasterArr[0])):
+    print(MasterArr[Counter2])
+
+    print(Counter2)
