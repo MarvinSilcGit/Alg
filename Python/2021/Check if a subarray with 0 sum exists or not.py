@@ -36,6 +36,8 @@ while Counter != ArrLen//3:
 
 print(MasterArr)
 
+print()
+
 if ZeroSum == 0:
 
     print("The Subarray 0", MasterArr[0], " is sum 0")
@@ -55,3 +57,7 @@ elif ZeroSum and ZeroSum1 and ZeroSum2 == 0:
 elif ZeroSum + ZeroSum1 + ZeroSum2 == 0:
 
     print("The Array is sum 0")
+
+else:
+
+    print("There's no 0 sum")

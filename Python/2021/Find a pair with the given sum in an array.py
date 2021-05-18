@@ -60,8 +60,8 @@ print()
 
 if len(par) > 1:
 
-    print("The pairs that match are ", par)
+    print("The pairs that matchs:", par)
 
 elif len(par) == 1:
 
-    print("The only one pair that match is", par)
+    print("The only one pair that matchs:", par)
