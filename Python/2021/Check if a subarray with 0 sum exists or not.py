@@ -38,9 +38,17 @@ print(MasterArr)
 
 print()
 
-if ZeroSum == 0 or ZeroSum1 == 0 or ZeroSum2 == 0:
+if ZeroSum == 0:
 
-    print("The Subarray %d is sum 0" % 1)
+    print("The Subarray", MasterArr[0], " is sum 0")
+
+elif ZeroSum1 == 0:
+
+    print("The Subarray", MasterArr[1], "%d is sum 0")
+
+elif ZeroSum2 == 0:
+
+    print("The Subarray",  MasterArr[2], "is sum 0")
 
 elif ZeroSum == 0 and ZeroSum1 == 0 and ZeroSum2 == 0:
 
