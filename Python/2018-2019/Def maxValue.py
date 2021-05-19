@@ -16,6 +16,7 @@ while True:
     z = 0
 
     s = 0
+
     z = input("Digite o valor %d; ou 0 para intorromper e saber o maior valor: " % (y+1))
 
     if z.isdigit() == True:
