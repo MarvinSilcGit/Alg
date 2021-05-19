@@ -1,8 +1,11 @@
 x = list(input("Digite a expressão de parênteses: "))
 
 z = 0
+
 b = 0
+
 e = 0
+
 g = []
 
 while z != len(x):
