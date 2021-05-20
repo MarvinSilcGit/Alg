@@ -15,11 +15,11 @@ while cont != "0":
 
         print("**************************************************************************************")
 
-        num=input("Digite o número de qualquer uma das %d forcas: "%len(pa))
+        num = input("Digite o número de qualquer uma das %d forcas: " % len(pa))
 
         print()
 
-        teste=["1", "2", "3", "4"]
+        teste = ["1", "2", "3", "4"]
 
         #1
         #2 Nesse ponto utiliza-se o método ".isdigit()" para saber se o valor digitado é um número. Se for entra no bloco, se não, recebe um aviso de entrada de dados incorreta
@@ -115,6 +115,7 @@ while cont != "0":
                                             w = w.split()
 
                                             while x != len(pa[0][0]):
+
                                                 if letra1 == pa[0][0][x]:
 
                                                     w[x] = letra1
@@ -137,17 +138,16 @@ while cont != "0":
 
                                         else:
 
-
                                             print()
 
                                             print("Digite somente uma letra. Não é permitido mais de uma letra por vez na forca")
 
                                             continue
 
-                                        x=0
+                                        x = 0
 
 
-                                        errar1=0
+                                        errar1 = 0
 
                                     else:
 
@@ -157,25 +157,25 @@ while cont != "0":
 
                                         continue
 
-                                    if errado1==0 or certo1==len(w):
+                                    if errado1 == 0 or certo1 == len(w):
 
                                         break
 
-                            elif ent1=="2":
+                            elif ent1 == "2":
 
-                                erro1=len(pa[0][1])
+                                erro1 = len(pa[0][1])
 
-                                if erro1>10:
+                                if erro1 > 10:
 
-                                    errado1=4
+                                    errado1 = 4
 
-                                elif erro1>15:
+                                elif erro1 > 15:
 
-                                    errado1=5
+                                    errado1 = 5
 
-                                elif erro1<10:
+                                elif erro1 < 10:
 
-                                    errado1=3
+                                    errado1 = 3
 
                                 print()
 
@@ -185,17 +185,17 @@ while cont != "0":
 
                                     print()
 
-                                    while z!=len(pa[0][1]):
+                                    while z != len(pa[0][1]):
 
                                         w.append("_")
 
-                                        z+=1
+                                        z += 1
 
-                                    w=" ".join(w)
+                                    w = " ".join(w)
 
-                                    print("Forca %s"%w)
+                                    print("Forca %s" % w)
 
-                                    letra1=input("Digite um letra: ").lower()
+                                    letra1 = input("Digite um letra: ").lower()
 
                                     if letra1 in w:
 
@@ -205,33 +205,33 @@ while cont != "0":
 
                                         continue
 
-                                    if letra1.isalpha()==True:
+                                    if letra1.isalpha() == True:
 
-                                        if len(letra1)==1:
+                                        if len(letra1) == 1:
 
-                                            w=w.split()
+                                            w = w.split()
 
-                                            while x!=len(pa[0][1]):
+                                            while x != len(pa[0][1]):
 
-                                                if letra1==pa[0][1][x]:
+                                                if letra1 == pa[0][1][x]:
 
-                                                    w[x]=letra1
+                                                    w[x] = letra1
 
-                                                    certo1+=1
+                                                    certo1 += 1
 
                                                 else:
 
-                                                    errar1+=1
+                                                    errar1 += 1
 
-                                                if errar1==len(w):
+                                                if errar1 == len(w):
 
-                                                    errado1-=1
+                                                    errado1 -= 1
 
                                                     print()
 
                                                     print("Errado!")
 
-                                                x+=1
+                                                x += 1
 
                                         else:
 
@@ -241,9 +241,9 @@ while cont != "0":
 
                                             continue
 
-                                        x=0
+                                        x = 0
 
-                                        errar1=0
+                                        errar1 = 0
 
                                     else:
 
@@ -253,25 +253,25 @@ while cont != "0":
 
                                         continue
 
-                                    if errado1==0 or certo1==len(w):
+                                    if errado1 == 0 or certo1 == len(w):
 
                                         break
 
-                            elif ent1=="3":
+                            elif ent1 == "3":
 
-                                erro1=len(pa[0][2])
+                                erro1 = len(pa[0][2])
 
-                                if erro1>10:
+                                if erro1 > 10:
 
-                                    errado1=4
+                                    errado1 = 4
 
-                                elif erro1>15:
+                                elif erro1 > 15:
 
-                                    errado1=5
+                                    errado1 = 5
 
-                                elif erro1<10:
+                                elif erro1 < 10:
 
-                                    errado1=3
+                                    errado1 = 3
 
                                 print()
 
@@ -281,17 +281,17 @@ while cont != "0":
 
                                     print()
 
-                                    while z!=len(pa[0][2]):
+                                    while z != len(pa[0][2]):
 
                                         w.append("_")
 
-                                        z+=1
+                                        z += 1
 
-                                    w=" ".join(w)
+                                    w = " ".join(w)
 
-                                    print("Forca: %s"%w)
+                                    print("Forca: %s" % w)
 
-                                    letra1=input("Digite uma letra: ").lower()
+                                    letra1 = input("Digite uma letra: ").lower()
 
                                     if letra1 in w:
 
@@ -301,33 +301,33 @@ while cont != "0":
 
                                         continue
 
-                                    if letra1.isalpha()==True:
+                                    if letra1.isalpha() == True:
 
-                                        if len(letra1)==1:
+                                        if len(letra1) == 1:
 
-                                            w=w.split()
+                                            w = w.split()
 
-                                            while x!=len(pa[0][2]):
+                                            while x != len(pa[0][2]):
 
-                                                if letra1==pa[0][2][x]:
+                                                if letra1 == pa[0][2][x]:
 
-                                                    w[x]=letra1
+                                                    w[x] = letra1
 
-                                                    certo1+=1
+                                                    certo1 += 1
 
                                                 else:
 
-                                                    errar1+=1
+                                                    errar1 += 1
 
-                                                if errar1==len(w):
+                                                if errar1 == len(w):
 
-                                                    errado1-=1
+                                                    errado1 -= 1
 
                                                     print()
 
                                                     print("Errado!")
 
-                                                x+=1
+                                                x += 1
 
                                         else:
 
@@ -353,104 +353,204 @@ while cont != "0":
 
                                         break
 
-                            elif ent1=="4":
-                                erro1=len(pa[0][3])
-                                if erro1>10:
-                                    errado1=4
-                                elif erro1>15:
-                                    errado1=5
-                                elif erro1<10:
-                                    errado1=3
+                            elif ent1 == "4":
+
+                                erro1 = len(pa[0][3])
+
+                                if erro1 > 10:
+
+                                    errado1 = 4
+
+                                elif erro1 > 15:
+
+                                    errado1 = 5
+
+                                elif erro1 < 10:
+
+                                    errado1 = 3
+
                                 print()
+
                                 print("É um esporte olímpico que tem como uma das características atletas com média de altura acima de 1,90m e que possui uma rede dividindo os times")
+
                                 while True:
+
                                     print()
-                                    while z!=len(pa[0][3]):
+
+                                    while z != len(pa[0][3]):
+
                                         w.append("_")
-                                        z+=1
-                                    w=" ".join(w)
-                                    print("Forca: %s"%w)
-                                    letra1=input("Digite uma letra: ").lower()
+
+                                        z += 1
+
+                                    w =" ".join(w)
+
+                                    print("Forca: %s" % w)
+
+                                    letra1 = input("Digite uma letra: ").lower()
+
                                     if letra1 in w:
+
                                         print()
+
                                         print("Esta letra já foi digitada!")
+
                                         continue
-                                    if letra1.isalpha()==True:
-                                        if len(letra1)==1:                                            
-                                            w=w.split()
-                                            while x!=len(pa[0][3]):
-                                                if letra1==pa[0][3][x]:
-                                                    w[x]=letra1
-                                                    certo1+=1
+
+                                    if letra1.isalpha() == True:
+
+                                        if len(letra1) == 1:
+
+                                            w = w.split()
+
+                                            while x != len(pa[0][3]):
+
+                                                if letra1 == pa[0][3][x]:
+
+                                                    w[x] = letra1
+
+                                                    certo1 += 1
+
                                                 else:
-                                                    errar1+=1
-                                                if errar1==len(w):
-                                                    errado1-=1
+
+                                                    errar1 += 1
+
+                                                if errar1 == len(w):
+
+                                                    errado1 -= 1
+
                                                     print()
+
                                                     print("Errado!")
-                                                x+=1
+
+                                                x += 1
+
                                         else:
+
                                             print()
+
                                             print("Digite somente uma letra. Não é permitido mais de uma letra por vez na forca")
+
                                             continue
-                                        x=0
-                                        errar1=0
+
+                                        x = 0
+
+                                        errar1 = 0
+
                                     else:
+
                                         print()
+
                                         print("Digite somente letras!")
+
                                         continue
-                                    if errado1==0 or certo1==len(w):
+
+                                    if errado1 == 0 or certo1 == len(w):
+
                                         break
-                            elif ent1!="0" and ent1!="1" and ent1!="2" and ent1!="3" and ent1!="4":
+
+                            elif ent1 != "0" and ent1 != "1" and ent1 != "2" and ent1 != " 3" and ent1 != "4":
+
                                 print()
+
                                 print("Digite apenas entre 0 e 4!")
+
                                 continue
-                            if errado1==0:
+
+                            if errado1 == 0:
+
                                 print()
+
                                 print("Você esgotou suas chances de errar. Enforcado!")
+
                                 print()
-                                if errado1<3:
+
+                                if errado1 < 3:
+
                                     print("   O ")
-                                if errado1<2:
+
+                                if errado1 < 2:
+
                                     print("   /\ ")
-                                if errado1<1:
+
+                                if errado1 < 1:
+
                                     print("   || ")
+
                                     print("-\   /-")
+
                                     print()
-                                    while b!=5:
+
+                                    while b != 5:
+
                                         print("  \O/"*5)
+
                                         print("  \O/"*5)
-                                        b+=1
+
+                                        b += 1
+
                             print()
-                            if certo1==len(w) and ent1=="1":
+
+                            if certo1 == len(w) and ent1 == "1":
+
                                 print("Você acertou a palavra %s e não foi enforcado!"%pa[0][0])
-                            elif certo1==len(w) and ent1=="2":
+
+                            elif certo1 == len(w) and ent1 == "2":
+
                                 print("Você acertou a palavra %s e não foi enforcado!"%pa[0][1])
-                            elif certo1==len(w) and ent1=="3":
+
+                            elif certo1 == len(w) and ent1 == "3":
+
                                 print("Você acertou a palavra %s e não foi enforcado!"%pa[0][2])
-                            elif certo1==len(w) and ent1=="4":
+
+                            elif certo1 == len(w) and ent1 == "4":
+
                                 print("Você acertou a palavra %s e não foi enforcado!"%pa[0][3])
+
                         else:
+
                             print()
+
                             print("Digite somente números!")
+
                             continue
-                    elif num=="2":
+
+                    elif num == "2":
+
                         print("2")
-                    elif num=="3":
+
+                    elif num == "3":
+
                         print("3")
-                    elif num=="4":
+
+                    elif num == "4":
+
                         print("4")
-                else: 
+
+                else:
+
                     print("Digite somente os números das forcas!")
+
                     break
+
             else:
+
                 print("Digite somente números!")
+
                 break
+
     #2 Aqui termina a verificação de entrada de dados
+
     print()
-    cont=input("Digite 0 para interromper a execução: ")
-    if cont.isdigit()==True:
+
+    cont = input("Digite 0 para interromper a execução: ")
+
+    if cont.isdigit() == True:
+
         break
+
     else:
+
         print("Digite apenas números!")
+
         continue
