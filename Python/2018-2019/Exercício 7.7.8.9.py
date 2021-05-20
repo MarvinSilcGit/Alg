@@ -3,9 +3,9 @@ cont = "1"
 while cont != "0":
 
     while True:
-        #1 Nesse ponto 1, são definidas as listas dentro de listas. Quatro listas, a primeira é sobre esportes, a segunda sobre empregos, a terceira sobre cidades
-        #e a quarta é sobre instrumentos musicais
-        #Define-se outra lista para abrigar os valores de cada conjunto de lista com a variável teste
+        # 1 Nesse ponto 1, são definidas as listas dentro de listas. Quatro listas, a primeira é sobre esportes, a segunda sobre empregos, a terceira sobre cidades
+        # e a quarta é sobre instrumentos musicais
+        # Define-se outra lista para abrigar os valores de cada conjunto de lista com a variável teste
 
         print("**************************************************************************************")
 
@@ -21,12 +21,12 @@ while cont != "0":
 
         teste = ["1", "2", "3", "4"]
 
-        #1
-        #2 Nesse ponto utiliza-se o método ".isdigit()" para saber se o valor digitado é um número. Se for entra no bloco, se não, recebe um aviso de entrada de dados incorreta
+        # 1
+        # 2 Nesse ponto utiliza-se o método ".isdigit()" para saber se o valor digitado é um número. Se for entra no bloco, se não, recebe um aviso de entrada de dados incorreta
 
         while True:
 
-            if num.isdigit()==True:
+            if num.isdigit() == True:
 
                 if num in teste:
 
@@ -539,7 +539,7 @@ while cont != "0":
 
                 break
 
-    #2 Aqui termina a verificação de entrada de dados
+    # 2 Aqui termina a verificação de entrada de dados
 
     print()
 
