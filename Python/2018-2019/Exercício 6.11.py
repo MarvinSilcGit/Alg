@@ -12,7 +12,7 @@ for e in L:
 
     L.append(n)
 
-x=0
+x = 0
 
 for e in n < len(x):
 
