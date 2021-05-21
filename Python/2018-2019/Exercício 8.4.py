@@ -1,4 +1,4 @@
-def areat(b,a):
+def areat(b, a):
 
     b = int(b)
 
@@ -9,6 +9,7 @@ def areat(b,a):
     print()
 
     return "A área do trinângulo é %d²" % b
+
 
 while True:
 

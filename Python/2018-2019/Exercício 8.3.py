@@ -8,6 +8,7 @@ def area(w):
 
     return("A área do quadrado é %d" % w)
 
+
 while True:
 
     print()

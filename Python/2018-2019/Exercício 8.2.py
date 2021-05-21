@@ -38,6 +38,7 @@ def multiplo(x, w):
 
         return "Valores equivalentes!"
 
+
 while True:
 
     while True:

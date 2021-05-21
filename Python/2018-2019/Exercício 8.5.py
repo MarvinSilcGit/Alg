@@ -8,6 +8,7 @@ def pesquisa(l, valor):
 
         return "O valor procurado não foi encontrado"
 
+
 lista = [10, 20, 25, 30]
 
 print(pesquisa(lista,1))
