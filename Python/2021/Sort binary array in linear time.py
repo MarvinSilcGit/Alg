@@ -2,7 +2,7 @@
 
 import random
 
-Array, Exchange, Counter1, Counter2 = [], [], 0, 0
+Array, Exchange, Counter1 = [], [], 0
 
 for Counter in range(0, random.randint(5, 30)):
 
