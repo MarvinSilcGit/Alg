@@ -2,6 +2,24 @@
 
 import random
 
-Counter, Counter1, Array = 0, 0, []
+Counter2, Counter1, Goal, Array = 0, 0, random.randint(3, 20), []
 
-# To divide the array in subarray and ask a number to find out wich subarray combination macth with the number asked
+for Counter in range(0, (random.randint(3, 20))):
+
+    Array.append(random.randint(4, 21))
+
+while Counter2 != Goal // 3:
+
+    Counter1 += 1
+
+    if Counter1 == Goal // 3:
+
+        pass
+
+    else:
+
+        Counter2 += 1
+
+print(Array)
+
+print(Goal, " is  present on array", Array)
