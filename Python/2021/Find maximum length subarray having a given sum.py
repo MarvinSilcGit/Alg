@@ -2,14 +2,26 @@
 
 import random
 
-Counter1, Counter2, Goal, Array, SubArray = 0, 0, random.randint(3, 42), [], []
+Counter1, Array, RandomLen, SubArray = 0, [], [], []
 
-for Counter in range(0, (random.randint(3, 20))):
+Goal = random.randint(1, 30)
 
-    Array.append(random.randint(4, 21))
+for Counter in range(15):
+
+    RandomLen.append(random.randint(1, 15))
+
+    if RandomLen[Counter] in Array:
+
+        continue
+
+    else:
+
+        Array.append(RandomLen[Counter])
+
+while Counter1 != len(Array)-1:
+
+    pass
 
 print(Array)
-
-print(SubArray)
 
 print(Goal)
