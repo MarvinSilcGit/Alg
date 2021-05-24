@@ -31,3 +31,5 @@ print(Array)
 print(Goal)
 
 print(SubArray)
+
+# Find the multiples of goal number. can be a way to solve;
