@@ -2,7 +2,7 @@
 
 import random
 
-Counter1, Sum, Array, ArraySum, RandomLen, SubArray = 0, 0, [], [], [], []
+Counter1, Sum, Array, RandomLen, SubArray = 0, 0, [], [], []
 
 Goal = random.randint(1, 30)
 
@@ -18,20 +18,16 @@ for Counter in range(15):
 
         Array.append(RandomLen[Counter])
 
-while Counter1 != len(Array)-1:
+while Counter1 != len(Array):
 
-    if Sum < Goal:
+    if Array[Counter1] < Goal:
 
-        Sum += Array[Counter1]
-
-        ArraySum.append(Array[Counter1])
-
-        if Sum == Goal:
-
-            SubArray.append(Array.pop())
+        SubArray.append(Array[Counter1])
 
     Counter1 += 1
 
 print(Array)
 
 print(Goal)
+
+print(SubArray)
