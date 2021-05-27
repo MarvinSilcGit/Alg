@@ -20,15 +20,13 @@ for Counter in range(15):
 
 while Counter2 != len(Array) - 1:
 
-    if Array[Counter1] + Sum == Goal:
-
-        SubArray.append(Array[Counter1])
-
     Sum += Array[Counter1]
 
-    Counter1 += 1
+    if Array[Counter1] + Sum < Goal:
 
-    print(Counter1)
+        print()
+
+    Counter1 += 1
 
     if Counter1 == len(Array):
 
@@ -40,7 +38,5 @@ while Counter2 != len(Array) - 1:
 
 print()
 print(Array)
-
 print(Goal)
-
 print(SubArray)
