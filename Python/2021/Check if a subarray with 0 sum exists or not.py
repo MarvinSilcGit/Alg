@@ -44,7 +44,7 @@ if ZeroSum == 0:
 
 elif ZeroSum1 == 0:
 
-    print("The Subarray", MasterArr[1], "%d is sum 0")
+    print("The Subarray", MasterArr[1], " is sum 0")
 
 elif ZeroSum2 == 0:
 
