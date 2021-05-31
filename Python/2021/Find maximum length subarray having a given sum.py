@@ -20,25 +20,34 @@ for Counter in range(15):
 
 while Counter2 != len(Array) - 1:
 
-    if Sum == 0 and Counter1 != 0:
+    if Sum == 0 and Counter1 != 0 and Counter1 != Counter2:
 
-        Sum += Array[Counter1] + Array[Counter2]
+        Sum += Array[Counter2]
+
+        if Array[Counter1] + Counter2 <= Goal:
+
+            Sum += Array[Counter1]
+
+            SubArray.append(Array[Counter2])
+
+            print("qq")
+
+            # Sum tem que receber o 13 mesmo se a soma for maior que a meta;
 
     else:
 
-        Sum += Array[Counter1]
+        if Sum + Array[Counter1] <= Goal:
 
-    if Sum > Goal:
+            SubArray.append(Array[Counter1])
 
-        Sum = 0
+            if Sum == Goal:
 
-    elif Sum <= Goal:
+                Sum = 0
 
-        SubArray.append(Array[Counter1])
+            else:
 
-        if Sum == Goal:
-
-            Sum = 0
+                Sum += Array[Counter1]
+                print("ww")
 
     Counter1 += 1
 
