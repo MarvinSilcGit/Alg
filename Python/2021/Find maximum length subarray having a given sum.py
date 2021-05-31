@@ -18,31 +18,31 @@ for Counter in range(15):
 
         Array.append(RandomLen[Counter])
 
-while Counter2 != len(Array) - 1:
+while Counter3 != len(Array) - 1:
 
-    if Array[Counter1] + Sum <= Goal:
+    while Counter1 != len(Array) - 1:
 
-        SubArray1.append(Array[Counter1])
+        if Array[Counter1] + Array[Counter2] <= Goal:
 
-        if Array[Counter1] + Sum == Goal:
+            SubArray1.append(Array[Counter1])
 
-            SubArray.append(SubArray1)
+            Sum += Array[Counter1]
 
-            print(SubArray)
+        Counter1 += 1
+
+    Counter3 = 0
 
     Sum += Array[Counter1]
 
-    Counter1 += 1
+    Counter2 += 1
 
-    if Counter1 == len(Array):
+    if Counter2 == len(Array):
 
-        Counter2 += 1
+        Counter3 += 1
 
-        Counter1 = Counter2
+        Counter2 = Counter2
 
         Sum = 0
-
-        del SubArray1[:]
 
 print()
 print(Array)
