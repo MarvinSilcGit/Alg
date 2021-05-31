@@ -32,8 +32,6 @@ while Counter2 != len(Array) - 1:
 
             print("qq")
 
-            # Sum tem que receber o 13 mesmo se a soma for maior que a meta;
-
     else:
 
         if Sum + Array[Counter1] <= Goal:
