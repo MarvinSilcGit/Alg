@@ -2,7 +2,7 @@
 
 import random
 
-Counter1, Counter2, Counter3, Sum, Array, RandomLen, SubArray, SubArray1 = 0, 0, 0, 0, [], [], [], []
+Counter1, Counter2, Sum, Array, RandomLen, SubArray, SubArray1 = 0, 0, 0, [], [], [], []
 
 Goal = random.randint(1, 30)
 
@@ -50,21 +50,19 @@ while Counter2 != len(Array) - 1:
 
     if Counter1 == len(Array):
 
-        if Sum != Goal:
-            print(SubArray1)
-            del SubArray1[:]
+        if Sum == Goal:
 
-        elif Sum == Goal:
-            print("u", SubArray1)
-            while Counter3 != len(SubArray1) - 1:
-                print(len(SubArray1))
-                SubArray.append(SubArray1.pop(Counter3))
+            while len(SubArray1) != 0:
+
+                SubArray.append(SubArray1.pop(0))
 
         Counter2 += 1
 
         Counter1 = Counter2
 
         Sum = 0
+
+        del SubArray1[:]
 
 print()
 print(Array)
