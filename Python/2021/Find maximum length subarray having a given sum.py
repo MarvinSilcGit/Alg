@@ -45,7 +45,6 @@ while Counter2 != len(Array) - 1:
             else:
 
                 Sum += Array[Counter1]
-                print("ww")
 
     Counter1 += 1
 
