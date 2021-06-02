@@ -34,9 +34,15 @@ while Counter1 != len(Array) - 1:
 
     Counter3 += 1
 
-    Counter3 = Counter2 + 1
+    if Counter3 == len(Array) and Counter2 != len(Array):
 
-    if Counter3 == len(Array):
+        Counter2 += 1
+
+        Counter3 = Counter2 + 1
+
+        Sum = Counter1 + Counter2
+
+    if Counter2 == len(Array) - 1:
 
         if Sum == Goal:
 
@@ -44,11 +50,11 @@ while Counter1 != len(Array) - 1:
 
                 SubArray.append(SubArray1.pop(0))
 
-        Counter2 += 1
+        Counter1 += 1
 
-        Counter1 = Counter2 + 1
+        Counter2 = Counter1 + 1
 
-        Counter3 = Counter1 + 1
+        Counter3 = Counter2 + 1
 
         Sum = 0
 
