@@ -2,7 +2,7 @@
 
 import random
 
-Counter1, Counter2, Sum, Array, RandomLen, SubArray, SubArray1 = 0, 0, 0, [], [], [], []
+Counter1, Counter2, Counter3, Sum, Array, RandomLen, SubArray, SubArray1 = 0, 1, 2, 0, [], [], [], []
 
 Goal = random.randint(1, 30)
 
@@ -18,37 +18,25 @@ for Counter in range(15):
 
         Array.append(RandomLen[Counter])
 
-while Counter2 != len(Array) - 1:
+while Counter1 != len(Array) - 1:
 
-    if Sum == 0 and Counter1 != 0 and Counter1 != Counter2:
+    if Counter1 + 1 == Counter2:
 
-        Sum += Array[Counter2]
+        Sum = Counter1 + Counter2
 
-        if Array[Counter1] + Counter2 <= Goal:
+    if Sum <= Goal:
 
-            Sum += Array[Counter1]
+        SubArray1.append(Array[Counter2])
 
-            SubArray1.append(Array[Counter2])
+        if Sum == Goal:
 
-            print("qq")
+            Sum = Counter1 + Counter2
 
-    else:
+    Counter3 += 1
 
-        if Sum + Array[Counter1] <= Goal:
+    Counter3 = Counter2 + 1
 
-            SubArray1.append(Array[Counter1])
-
-            if Sum == Goal:
-
-                Sum = 0
-
-            else:
-
-                Sum += Array[Counter1]
-
-    Counter1 += 1
-
-    if Counter1 == len(Array):
+    if Counter3 == len(Array):
 
         if Sum == Goal:
 
@@ -58,7 +46,9 @@ while Counter2 != len(Array) - 1:
 
         Counter2 += 1
 
-        Counter1 = Counter2
+        Counter1 = Counter2 + 1
+
+        Counter3 = Counter1 + 1
 
         Sum = 0
 
@@ -68,5 +58,3 @@ print()
 print(Array)
 print(Goal)
 print(SubArray)
-print(SubArray1)
-
