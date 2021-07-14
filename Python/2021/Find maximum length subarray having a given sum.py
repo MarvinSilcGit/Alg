@@ -18,31 +18,38 @@ for Counter in range(15):
 
         Array.append(RandomLen[Counter])
 
+Sum = Array[Counter1]
+
+SubArray.append(Array[Counter1])
+
 while Counter1 != len(Array) - 1:
 
-    if Array[Counter1] + Array[Counter2] <= sum:
+    if Sum + Array[Counter2] <= Goal:
 
         SubArray.append(Array[Counter2])
 
-    Counter1 += 1
+        Sum += Array[Counter2]
 
-    if Counter1 == len(Array):
+    Counter2 += 1
+
+    if Counter2 == len(Array):
 
         Counter1 += 1
 
         Counter2 = Counter1 + 1
 
-        Sum = 0
+        print(SubArray)
 
-        del SubArray[:]
+        Sum = Array[Counter1]
+
+        SubArray.append("|")
+
+        SubArray.append(Array[Counter1])
 
 print()
 print(Array)
 print(Goal)
 print(SubArray)
 
-# 25
-# 10 14 15 5 1 4 2 6
 # 24
 # 2, 6, 10, 9, 11, 15, 12, 13
-# Sum the actual number with next number. If the next number minus past number has a value closest, remove the past and add the new one;
