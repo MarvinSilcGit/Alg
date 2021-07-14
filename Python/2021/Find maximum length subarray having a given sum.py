@@ -30,6 +30,10 @@ while Counter1 != len(Array) - 1:
 
         Sum += Array[Counter2]
 
+       # if Sum != Goal and Array[Counter2 + 1] + Sum > Goal:
+
+           # Sum -= Array[Counter2]
+
     Counter2 += 1
 
     if Counter2 == len(Array):
@@ -44,7 +48,9 @@ while Counter1 != len(Array) - 1:
 
         SubArray.append("|")
 
-        SubArray.append(Array[Counter1])
+        if Array[Counter1] <= Goal:
+
+            SubArray.append(Array[Counter1])
 
 print()
 print(Array)
