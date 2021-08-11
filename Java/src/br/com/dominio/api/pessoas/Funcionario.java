@@ -18,18 +18,18 @@ public abstract class Funcionario extends Cidadao
 
     private Date dataAdmissao;
 
-    //Fim do campo de declaração de atributos / End of attribute Declaration Field
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field
 
     public Funcionario ()
     {
 
-    }//Fim do método construtor padrão / End of Default Constructor;
+    }//Fim do Construtor padrão / End of Default Constructor;
 
-    public Funcionario (float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Endereco endereco, Date dataAdmissao)
+    public Funcionario (String nome, int cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
     {
-        super ();
+        super (nome, cpf, dataNascimento, endereco);
 
-        //Fim do Método Super da classe mãe Cidado / End of Cidadao's Parent Class Super Method;
+        //Fim do Método Super da classe mãe Cidadoo / End of Cidadao Parent Class's Super Method;
 
         this.salario = salario;
 
@@ -44,9 +44,9 @@ public abstract class Funcionario extends Cidadao
         this.sexo = sexo;
 
         this.dataAdmissao = dataAdmissao;
-    }//Fim do Primeiro Método Construtor Personalizado / End of the First Constructor Method;
+    }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalEnfermagem / End of Personalized Constructor for using of following classes: ProfissionalEnfermagem;
 
-    public Funcionario (String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Endereco endereco, Date dataAdmissao)
+    public Funcionario (String nome, int cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
     {
         this.setor = setor;
 
@@ -59,6 +59,37 @@ public abstract class Funcionario extends Cidadao
         this.sexo = sexo;
 
         this.dataAdmissao = dataAdmissao;
-    }//Fim do Segundo Método Construtor / End of the Second Constructor Method;
+    }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalMedicina / End of Personalized Constructor for using of following classes: ProfissionalMedicina;
 
-}//Fim da Classe Funcionario / End of Funcionario Class;
+    public float retornarSalario()
+    {
+        return salario;
+    }
+
+    public String retornarSetor()
+    {
+        return setor;
+    }
+
+    public String retornarFuncao()
+    {
+        return funcao;
+    }
+
+    public String retornarEmail()
+    {
+        return email;
+    }
+
+    public String retornarSexualidade()
+    {
+        return sexualidade;
+    }
+
+    public String retornarSexo()
+    {
+        return sexo;
+    }
+    //Fim do Métodos Retornadores / End of Returners Methods;
+
+}//Fim da Classe / End of Class;

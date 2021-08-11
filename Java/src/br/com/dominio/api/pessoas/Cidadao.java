@@ -4,6 +4,8 @@ import br.com.dominio.api.pessoas.dados.Endereco;
 
 import java.util.Date;
 
+//Fim dos Imports / End of Imports;
+
 public abstract class Cidadao
 {
     private String nome;
@@ -14,10 +16,12 @@ public abstract class Cidadao
 
     private Endereco endereco;
 
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
+
     public Cidadao ()
     {
 
-    }
+    }//Fim do Construtor Padrão / End of Default Constructor;
 
     public Cidadao (String nome, int cpf, Date dataNascimento, Endereco endereco)
     {
@@ -28,7 +32,7 @@ public abstract class Cidadao
         this.dataNascimento = dataNascimento;
 
         this.endereco = endereco;
-    }
+    }//Fim do Construtor Personalizado / End of Personalized Constructor;
 
     public final String retornarNome()
     {
@@ -49,4 +53,5 @@ public abstract class Cidadao
     {
         return endereco.retornarEnderecoCompleto();
     }
-}
+
+}//Fim da classe / End of Class;
