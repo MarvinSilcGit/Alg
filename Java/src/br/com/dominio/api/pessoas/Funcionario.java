@@ -48,6 +48,10 @@ public abstract class Funcionario extends Cidadao
 
     public Funcionario (String nome, int cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
     {
+        super(nome, cpf, dataNascimento, endereco);
+
+        //Fim do Método Super da Classe mãe Cidadao / End of Cidadao Parent Class's Super Method;
+
         this.setor = setor;
 
         this.funcao = funcao;
