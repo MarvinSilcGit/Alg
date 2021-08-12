@@ -50,7 +50,7 @@ public abstract class Funcionario extends Cidadao
     {
         super(nome, cpf, dataNascimento, endereco);
 
-        //Fim do Método Super da Classe mãe Cidadao / End of Cidadao Parent Class's Super Method;
+        //Fim do Método Super da Classe mãe / End of Parent Class's Super Method;
 
         this.setor = setor;
 

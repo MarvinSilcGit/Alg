@@ -1,6 +1,6 @@
 package br.com.dominio.api.empresa;
 
-public class MainEmpresa
+public final class MainEmpresa
 {
     public static void main (String [] args)
     {

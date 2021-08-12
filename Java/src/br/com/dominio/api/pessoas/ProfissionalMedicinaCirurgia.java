@@ -21,7 +21,7 @@ public  abstract class ProfissionalMedicinaCirurgia extends ProfissionalMedicina
     {
         super(nome, cpf, dataNascimento, endereco, setor, funcao, email, sexualidade, sexo, telefone, dataAdmissao, crm, valorConsulta);
 
-        //Fim do Método Super da Classe Mãe ProfissionalMedicina / End of ProfissionalMedicina Parent Class's Super Method;
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
         this.valorCirurgia = valorCirurgia;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;

@@ -21,7 +21,7 @@ public abstract class ProfissionalEnfermagem extends Funcionario
     {
         super(nome, cpf, dataNascimento, endereco, salario, setor, funcao, email, sexualidade, sexo, telefone, dataAdmissao);
 
-        //Fim do Método Super da Classe Mãe Funcionario / End of Funcionario Parent Class's Super Method
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method
 
         this.coren = coren;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;

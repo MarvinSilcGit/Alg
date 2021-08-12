@@ -23,7 +23,7 @@ public abstract class ProfissionalMedicina extends Funcionario
     {
         super(nome, cpf, dataNascimento, endereco, setor, funcao, email, sexualidade, sexo, telefone, dataAdmissao);
 
-        //Fim do Método Super da Classe Mãe Funcionario / End of Funcionario Parent Class's Super Method;
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
         this.crm = crm;
 
