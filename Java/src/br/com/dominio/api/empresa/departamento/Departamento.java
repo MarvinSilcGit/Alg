@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 //Fim dos Imports / End of Imports;
 
+
 public class Departamento
 {
     private String nome;
@@ -16,10 +17,12 @@ public class Departamento
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
+
     public Departamento()
     {
 
     }//Fim do Construtor Padrão / End of Default Constructor;
+
 
     public Departamento(String nome, Diretor diretor, ViceDiretor viceDiretor)
     {
@@ -29,5 +32,6 @@ public class Departamento
 
         this.viceDiretor = viceDiretor;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
+
 
 }//Fim da Classe / End of Class;
