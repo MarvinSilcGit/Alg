@@ -50,7 +50,7 @@ public abstract class Funcionario extends Cidadao
         this.dataAdmissao = dataAdmissao;
 
         this.telefone = telefone;
-    }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalEnfermagem e ProfissionalFarmacia / End of Personalized Constructor for using of following classes: ProfissionalEnfermagem and ProfissionialFarmacia;
+    }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalEnfermagem, ProfissionalFarmacia, Diretor e ViceDiretor / End of Personalized Constructor for using of following classes: ProfissionalEnfermagem, ProfissionialFarmacia, Diretor and ViceDiretor;
 
     public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo,Date dataAdmissao, TelefonePessoaFisica telefone)
     {

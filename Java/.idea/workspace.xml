@@ -10,15 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/MainEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/MainEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/ViceDiretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/ViceDiretor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/MainDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/MainDados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628778393011</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Aprimorando / improving">
+      <created>1628781024440</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628781024440</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

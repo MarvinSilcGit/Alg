@@ -11,7 +11,7 @@ public final class Endereco
     private int numero,
             cep;
 
-    //Fim do campo de declaração de atributos / End of attributes Declaration Field;
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
     public Endereco()
     {
