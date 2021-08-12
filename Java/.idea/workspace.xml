@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Despesas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Orcamento.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628790063971</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Aprimorando / improving">
+      <created>1628794715606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628794715606</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
