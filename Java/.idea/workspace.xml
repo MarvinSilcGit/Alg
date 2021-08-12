@@ -9,15 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistante.java" afterDir="false" />
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Despesas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Despesas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/ViceDiretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/ViceDiretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628796608268</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Aprimorando / improving">
+      <created>1628802193046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628802193046</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Aprimorando / improving">
+      <created>1628802234158</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628802234160</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,10 +237,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rebuilding the ancient classes / Reconstruindo classes antigas;" />
-    <MESSAGE value="Aprimorando / improving" />
     <MESSAGE value="Aprimorando e modificando o projeto original / improving and modifying the original project" />
     <MESSAGE value="Aprimorando a legibilidade aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
     <MESSAGE value="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
+    <MESSAGE value="Aprimorando / improving" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando / improving" />
   </component>
 </project>
