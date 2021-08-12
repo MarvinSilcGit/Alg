@@ -14,12 +14,12 @@ public final class Telefone
 
     private Cidadao cpfUsuarioVinculado;
 
-    //Fim do campo de declaração de atributos / End of attributes Declaration Field
+    //Fim do campo de declaração de atributos / End of attributes Declaration Field;
 
     public Telefone()
     {
 
-    }//Fim do Construtor Padrão / End of Default's Constructor;
+    }//Fim do Construtor Padrão / End of Default Constructor;
 
     public Telefone(int ddi, int ddd, int numero, Cidadao cpfUsuarioVinculado, String operadora)
     {
@@ -48,7 +48,7 @@ public final class Telefone
     {
         return operadora;
     }
-    //Fim dos Métodos retornadores / Ends of Returners Methods;
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }//Fim da Classe / End of Class;
 

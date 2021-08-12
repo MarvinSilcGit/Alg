@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicinaCirurgia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" afterDir="false" />
     </list>

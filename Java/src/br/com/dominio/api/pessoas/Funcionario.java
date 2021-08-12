@@ -94,6 +94,6 @@ public abstract class Funcionario extends Cidadao
     {
         return sexo;
     }
-    //Fim do Métodos Retornadores / End of Returners Methods;
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }//Fim da Classe / End of Class;

@@ -30,6 +30,6 @@ public abstract class ProfissionalEnfermagem extends Funcionario
     {
         return coren;
     }
-    //Fim do Métods Retornadores / End of Returners Methods;
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }//Fim da classe  / End of CLass;

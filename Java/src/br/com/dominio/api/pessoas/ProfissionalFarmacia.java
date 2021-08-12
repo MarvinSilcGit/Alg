@@ -30,6 +30,6 @@ public abstract class ProfissionalFarmacia extends Funcionario
     {
         return crf;
     }
-    //Fim do Métodos Retornadores / End of Returners Methods;
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }//Fim da Classe / End of Class;
