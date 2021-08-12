@@ -6,7 +6,7 @@ import java.util.Dictionary;
 //Fim dos Imports / End of Imports;
 
 
-public class Despesas
+public final class Despesas
 {
     //Colocar dicionário para que a despesa esteja relacionada ao valor gasto.
     // Ligar as despesas com o valor do orcamento, impedindo que as despesa superem o valor do orcamento.

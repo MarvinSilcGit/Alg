@@ -3,16 +3,16 @@ package br.com.dominio.api.empresa.departamento;
 
 import java.util.Date;
 
-import java.util.ArrayList;
-
 import br.com.dominio.api.pessoas.Funcionario;
 
 import br.com.dominio.api.pessoas.dados.Endereco;
 
 import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
+//Fim do Imports / End of Imports;
 
-public class ViceDiretor extends Funcionario
+
+public final class ViceDiretor extends Funcionario
 {
 
     public ViceDiretor()

@@ -13,9 +13,9 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 //Fim dos Imports / End of Imports;
 
 
-public class Diretor extends Funcionario
+public final class Diretor extends Funcionario
 {
-    private ArrayList<String> listaGerentes = new ArrayList<>(10);
+    private ArrayList<Gerente> listaGerentes = new ArrayList<>(10);
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -40,5 +40,22 @@ public class Diretor extends Funcionario
 
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
 
+
+    public final ArrayList<Gerente> retornarListaGerentes()
+    {
+        return listaGerentes;
+    }
+    //Fim do Métodos Retornadores / End of Getter Methods;
+
+
+    public final Gerente inseriGerenteLista(Gerente novoGerente)
+    {
+        listaGerentes.add(novoGerente);
+    }
+
+    public void removerGerentesLista(Gerente removerGerente)
+    {
+        listaGerentes.remove(removerGerente);
+    }
 
 }//Fim da Classe / End of Class;

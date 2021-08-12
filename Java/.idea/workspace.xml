@@ -9,16 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando e modificando o projeto original / improving and modifying the original project">
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/MainEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/MainEmpresa.java" afterDir="false" />
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Despesas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Despesas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Diretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/ViceDiretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/ViceDiretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628796232314</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections">
+      <created>1628796608268</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628796608268</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +230,8 @@
     <MESSAGE value="Rebuilding the ancient classes / Reconstruindo classes antigas;" />
     <MESSAGE value="Aprimorando / improving" />
     <MESSAGE value="Aprimorando e modificando o projeto original / improving and modifying the original project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando e modificando o projeto original / improving and modifying the original project" />
+    <MESSAGE value="Aprimorando a legibilidade aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
+    <MESSAGE value="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
   </component>
 </project>

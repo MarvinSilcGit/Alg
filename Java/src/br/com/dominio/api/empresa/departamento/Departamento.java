@@ -3,10 +3,12 @@ package br.com.dominio.api.empresa.departamento;
 
 import java.util.ArrayList;
 
+import br.com.dominio.api.pessoas.Funcionario;
+
 //Fim dos Imports / End of Imports;
 
 
-public class Departamento
+public final class Departamento
 {
     private String nome;
 
@@ -16,7 +18,7 @@ public class Departamento
 
     private double orcamentoTrimestral;
 
-    private ArrayList<String> listaFuncionários = new ArrayList<>(50);
+    private ArrayList<Funcionario> listaFuncionarios = new ArrayList<>();
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -60,6 +62,7 @@ public class Departamento
     }
     //Fim do Métodos Retornadores / End of Getter Methods;
 
+
     public final void alterarNome(String novoNome)
     {
         nome = novoNome;
@@ -79,5 +82,32 @@ public class Departamento
     {
         orcamentoTrimestral = novoOrcamentoTrimestral;
     }
+
+    public final void inserirFuncionarioDepartamento(Funcionario novoFuncionario)
+    {
+        if (listaFuncionarios.contains(novoFuncionario))
+        {
+            System.out.println("Já existe esse Funcionaro / Already exists this Funcionario");
+        }
+
+        else
+        {
+            listaFuncionarios.add(novoFuncionario);
+        }
+    }
+
+    public final void removerFuncionarioDepartamento(Funcionario removerFuncionario)
+    {
+        if (listaFuncionarios.contains(removerFuncionario))
+        {
+            listaFuncionarios.remove(removerFuncionario);
+        }
+
+        else
+        {
+            System.out.println("O Funcionario não existe / The Funcionario don't exists");
+        }
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
 
 }//Fim da Classe / End of Class;
