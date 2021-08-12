@@ -1,5 +1,6 @@
 package br.com.dominio.api.pessoas;
 
+
 import br.com.dominio.api.pessoas.dados.Endereco;
 
 import java.util.Date;

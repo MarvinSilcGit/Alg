@@ -1,5 +1,6 @@
 package br.com.dominio.api.pessoas;
 
+
 public final class MainPessoas
 {
     public static final void main (String [] args)

@@ -1,5 +1,6 @@
 package br.com.dominio.api.pessoas.dados;
 
+
 public final class Endereco
 {
     private String estado,

@@ -16,7 +16,7 @@ public class Departamento
 
     private double orcamentoTrimestral;
 
-    private ArrayList listaFuncionários = new ArrayList(50);
+    private ArrayList<String> listaFuncionários = new ArrayList<>(50);
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -75,7 +75,7 @@ public class Departamento
         viceDiretor = novoViceDiretor;
     }
 
-    public final void alterOrcamentoTrimestral(double novoOrcamento)
+    public final void alterOrcamentoTrimestral(double novoOrcamentoTrimestral)
     {
         orcamentoTrimestral = novoOrcamentoTrimestral;
     }

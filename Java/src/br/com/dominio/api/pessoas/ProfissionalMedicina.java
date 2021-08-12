@@ -1,5 +1,6 @@
 package br.com.dominio.api.pessoas;
 
+
 import java.util.Date;
 
 import br.com.dominio.api.pessoas.dados.*;

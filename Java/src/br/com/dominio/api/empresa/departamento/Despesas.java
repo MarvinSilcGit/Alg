@@ -1,5 +1,6 @@
 package br.com.dominio.api.empresa.departamento;
 
+
 import java.util.Dictionary;
 
 //Fim dos Imports / End of Imports;

@@ -15,7 +15,7 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
 public class Diretor extends Funcionario
 {
-    private ArrayList listaGerentes = new ArrayList(10);
+    private ArrayList<String> listaGerentes = new ArrayList<>(10);
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 

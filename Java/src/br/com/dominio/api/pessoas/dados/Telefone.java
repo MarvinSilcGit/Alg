@@ -1,6 +1,5 @@
 package br.com.dominio.api.pessoas.dados;
 
-//Fim dos imports / End of Imports;
 
 public abstract class Telefone
 {
