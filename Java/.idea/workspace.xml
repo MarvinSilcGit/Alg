@@ -10,14 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicinaCirurgia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicinaCirurgia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +61,9 @@
       <recent name="br.com.dominio.api.pessoas" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.MainApi">
-    <configuration name="MainApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.dominio.api.MainApi" />
+  <component name="RunManager" selected="JAR Application.API.jar">
+    <configuration name="MainPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dominio.api.pessoas.MainPessoas" />
       <module name="Classes" />
       <extension name="coverage">
         <pattern>
@@ -78,6 +74,10 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="API.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Classes_jar/API.jar" />
+      <method v="2" />
     </configuration>
     <configuration name="MainApi" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Classes_jar/Classes.jar" />
@@ -90,12 +90,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainApi" />
       <item itemvalue="JAR Application.MainApi" />
+      <item itemvalue="Application.MainPessoas" />
+      <item itemvalue="JAR Application.API.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApi" />
+        <item itemvalue="JAR Application.API.jar" />
+        <item itemvalue="Application.MainPessoas" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628735819589</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aprimorando / improving">
+      <created>1628775512077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628775512077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

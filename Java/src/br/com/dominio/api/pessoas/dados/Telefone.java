@@ -1,20 +1,15 @@
 package br.com.dominio.api.pessoas.dados;
 
-import br.com.dominio.api.pessoas.Cidadao;
-
 //Fim dos imports / End of Imports;
 
-public final class Telefone
+public abstract class Telefone
 {
-    private int ddi,
-    ddd,
-    numero;
+    private short ddi,
+    ddd;
+
+    private long numero;
 
     private String operadora;
-
-    private long cpfUsuarioVinculado;
-
-    private long cnpjEmpresaVinculada;
 
     //Fim do campo de declaração de atributos / End of attributes Declaration Field;
 
@@ -23,7 +18,7 @@ public final class Telefone
 
     }//Fim do Construtor Padrão / End of Default Constructor;
 
-    public Telefone(int ddi, int ddd, int numero, long cpfUsuarioVinculado, String operadora)
+    public Telefone(short ddi, short ddd, long numero, String operadora)
     {
         this.ddi = ddi;
 
@@ -31,10 +26,8 @@ public final class Telefone
 
         this.numero = numero;
 
-        this.cpfUsuarioVinculado = cpfUsuarioVinculado;
-
         this.operadora = operadora;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }//Fim do Construtor Personalizado para uso das seguintes Classes: Cidadao / End of Personalized Constructor for use of following classes: Cidadao;
 
     public final String retornarNumeroCompleto()
     {
@@ -49,11 +42,6 @@ public final class Telefone
     public final String retornarOperadora()
     {
         return operadora;
-    }
-
-    public final long retornarCnpjEmpresaVinculada()
-    {
-        return cnpjEmpresaVinculada;
     }
 
     //Fim dos Métodos Retornadores / End of Getters Methods;

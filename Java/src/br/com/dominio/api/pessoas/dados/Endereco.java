@@ -3,13 +3,13 @@ package br.com.dominio.api.pessoas.dados;
 public final class Endereco
 {
     private String estado,
-    cidade,
-    bairro,
-    rua,
-    complemento;
+            cidade,
+            bairro,
+            rua,
+            complemento;
 
     private int numero,
-    cep;
+            cep;
 
     //Fim do campo de declaração de atributos / End of attributes Declaration Field;
 
