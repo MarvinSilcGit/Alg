@@ -10,7 +10,7 @@ public abstract class Cidadao
 {
     private String nome;
 
-    private int cpf;
+    private long cpf;
 
     private Date dataNascimento;
 
@@ -23,7 +23,7 @@ public abstract class Cidadao
 
     }//Fim do Construtor Padrão / End of Default Constructor;
 
-    public Cidadao (String nome, int cpf, Date dataNascimento, Endereco endereco)
+    public Cidadao (String nome, long cpf, Date dataNascimento, Endereco endereco)
     {
         this.nome = nome;
 
@@ -39,7 +39,7 @@ public abstract class Cidadao
         return nome;
     }
 
-    public final int retornarCpf()
+    public final long retornarCpf()
     {
         return cpf;
     }

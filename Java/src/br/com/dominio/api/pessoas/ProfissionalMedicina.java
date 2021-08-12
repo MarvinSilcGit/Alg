@@ -19,7 +19,7 @@ public abstract class ProfissionalMedicina extends Funcionario
 
     }//Fim do Construtor Padrão / End of Default Constructor;
 
-    public ProfissionalMedicina(String nome, int cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao, String crm, float valorConsulta)
+    public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao, String crm, float valorConsulta)
     {
         super(nome, cpf, dataNascimento, endereco, setor, funcao, email, sexualidade, sexo, telefone, dataAdmissao);
 
@@ -30,12 +30,12 @@ public abstract class ProfissionalMedicina extends Funcionario
         this.valorConsulta = valorConsulta;
     }//Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
-    public String retornarCrm()
+    public final String retornarCrm()
     {
         return crm;
     }
 
-    public float retornarValorConsulta()
+    public final float retornarValorConsulta()
     {
         return valorConsulta;
     }

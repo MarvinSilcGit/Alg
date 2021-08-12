@@ -25,7 +25,7 @@ public abstract class Funcionario extends Cidadao
 
     }//Fim do Construtor padrão / End of Default Constructor;
 
-    public Funcionario (String nome, int cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
+    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
     {
         super (nome, cpf, dataNascimento, endereco);
 
@@ -46,7 +46,7 @@ public abstract class Funcionario extends Cidadao
         this.dataAdmissao = dataAdmissao;
     }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalEnfermagem e ProfissionalFarmacia / End of Personalized Constructor for using of following classes: ProfissionalEnfermagem and ProfissionialFarmacia;
 
-    public Funcionario (String nome, int cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
+    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
     {
         super(nome, cpf, dataNascimento, endereco);
 
@@ -65,32 +65,32 @@ public abstract class Funcionario extends Cidadao
         this.dataAdmissao = dataAdmissao;
     }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalMedicina / End of Personalized Constructor for using of following classes: ProfissionalMedicina;
 
-    public float retornarSalario()
+    public final float retornarSalario()
     {
         return salario;
     }
 
-    public String retornarSetor()
+    public final String retornarSetor()
     {
         return setor;
     }
 
-    public String retornarFuncao()
+    public final String retornarFuncao()
     {
         return funcao;
     }
 
-    public String retornarEmail()
+    public final String retornarEmail()
     {
         return email;
     }
 
-    public String retornarSexualidade()
+    public final String retornarSexualidade()
     {
         return sexualidade;
     }
 
-    public String retornarSexo()
+    public final String retornarSexo()
     {
         return sexo;
     }

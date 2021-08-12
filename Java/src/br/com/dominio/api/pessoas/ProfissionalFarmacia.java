@@ -17,7 +17,7 @@ public abstract class ProfissionalFarmacia extends Funcionario
 
     }//Fim do Construtor Padrão / End of Default Constructor;
 
-    public ProfissionalFarmacia(String nome, int cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao, String crf)
+    public ProfissionalFarmacia(String nome, long cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao, String crf)
     {
         super(nome, cpf, dataNascimento, endereco, salario, setor, funcao, email, sexualidade, sexo, telefone, dataAdmissao);
 
@@ -26,7 +26,7 @@ public abstract class ProfissionalFarmacia extends Funcionario
         this.crf = crf;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
 
-    public String retornarCrf()
+    public final String retornarCrf()
     {
         return crf;
     }

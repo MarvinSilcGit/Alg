@@ -12,7 +12,9 @@ public final class Telefone
 
     private String operadora;
 
-    private Cidadao cpfUsuarioVinculado;
+    private long cpfUsuarioVinculado;
+
+    private long cnpjEmpresaVinculada;
 
     //Fim do campo de declaração de atributos / End of attributes Declaration Field;
 
@@ -21,7 +23,7 @@ public final class Telefone
 
     }//Fim do Construtor Padrão / End of Default Constructor;
 
-    public Telefone(int ddi, int ddd, int numero, Cidadao cpfUsuarioVinculado, String operadora)
+    public Telefone(int ddi, int ddd, int numero, long cpfUsuarioVinculado, String operadora)
     {
         this.ddi = ddi;
 
@@ -39,15 +41,21 @@ public final class Telefone
         return "DDI: " + ddi + ", DDD: " + ddd + ", Número: " + numero;
     }
 
-    public final int retornarCpfUsuario()
+    /*public final long retornarCpfUsuario()
     {
         return cpfUsuarioVinculado.retornarCpf();
-    }
+    }*/
 
     public final String retornarOperadora()
     {
         return operadora;
     }
+
+    public final long retornarCnpjEmpresaVinculada()
+    {
+        return cnpjEmpresaVinculada;
+    }
+
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }//Fim da Classe / End of Class;
