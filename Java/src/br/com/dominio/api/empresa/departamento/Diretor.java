@@ -48,7 +48,7 @@ public final class Diretor extends Funcionario
     //Fim do Métodos Retornadores / End of Getter Methods;
 
 
-    public final Gerente inseriGerenteLista(Gerente novoGerente)
+    public final void inseriGerenteLista(Gerente novoGerente)
     {
         listaGerentes.add(novoGerente);
     }
