@@ -1,6 +1,8 @@
 package br.com.dominio.api.pessoas;
 
-import br.com.dominio.api.pessoas.dados.*;
+import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
+
+import br.com.dominio.api.pessoas.dados.Endereco;
 
 import java.util.Date;
 
@@ -11,12 +13,14 @@ public abstract class Funcionario extends Cidadao
     private float salario;
 
     private String setor,
-    funcao,
-    email,
-    sexualidade,
-    sexo;
+            funcao,
+            email,
+            sexualidade,
+            sexo;
 
     private Date dataAdmissao;
+
+    private TelefonePessoaFisica telefone;
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field
 
@@ -25,11 +29,11 @@ public abstract class Funcionario extends Cidadao
 
     }//Fim do Construtor padrão / End of Default Constructor;
 
-    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
+    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, float salario, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
     {
         super (nome, cpf, dataNascimento, endereco);
 
-        //Fim do Método Super da classe mãe Cidadoo / End of Cidadao Parent Class's Super Method;
+        //Fim do Método Super da classe mãe / End of Parent Class's Super Method;
 
         this.salario = salario;
 
@@ -44,13 +48,15 @@ public abstract class Funcionario extends Cidadao
         this.sexo = sexo;
 
         this.dataAdmissao = dataAdmissao;
+
+        this.telefone = telefone;
     }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalEnfermagem e ProfissionalFarmacia / End of Personalized Constructor for using of following classes: ProfissionalEnfermagem and ProfissionialFarmacia;
 
-    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo, Telefone telefone, Date dataAdmissao)
+    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, String setor, String funcao, String email, String sexualidade, String sexo,Date dataAdmissao, TelefonePessoaFisica telefone)
     {
         super(nome, cpf, dataNascimento, endereco);
 
-        //Fim do Método Super da Classe mãe / End of Parent Class's Super Method;
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
         this.setor = setor;
 
@@ -63,6 +69,8 @@ public abstract class Funcionario extends Cidadao
         this.sexo = sexo;
 
         this.dataAdmissao = dataAdmissao;
+
+        this.telefone = telefone;
     }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalMedicina / End of Personalized Constructor for using of following classes: ProfissionalMedicina;
 
     public final float retornarSalario()
@@ -93,6 +101,16 @@ public abstract class Funcionario extends Cidadao
     public final String retornarSexo()
     {
         return sexo;
+    }
+
+    public final Date retornarDataAdmissao()
+    {
+        return dataAdmissao;
+    }
+
+    public final TelefonePessoaFisica retornarTelefonePessoaFisica()
+    {
+        return telefone;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 

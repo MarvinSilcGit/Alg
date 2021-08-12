@@ -4,7 +4,9 @@ import java.util.ArrayList;
 
 import br.com.dominio.api.pessoas.Funcionario;
 
-import br.com.dominio.api.pessoas.dados.*;
+import br.com.dominio.api.pessoas.dados.TelefonePessoaJuridica;
+
+import br.com.dominio.api.pessoas.dados.Endereco;
 
 //Fim dos Imports / End of Imports;
 
@@ -26,7 +28,7 @@ public abstract class Empresa
 
     private Endereco endereco;
 
-    private Telefone telefone;
+    private TelefonePessoaJuridica telefone;
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -35,7 +37,7 @@ public abstract class Empresa
 
     }//Fim do Construtor Padrão / End of Default Constructor;
 
-    public Empresa(String razaoSocial, String nomeFantasia, double capitalSocial, long cnpj, Funcionario presidente, Funcionario vicePresidente, Endereco endereco, Telefone telefone)
+    public Empresa(String razaoSocial, String nomeFantasia, double capitalSocial, long cnpj, Funcionario presidente, Funcionario vicePresidente, Endereco endereco, TelefonePessoaJuridica telefone)
     {
         this.razaoSocial = razaoSocial;
 
@@ -93,5 +95,6 @@ public abstract class Empresa
     {
         return telefone.retornarNumeroCompleto();
     }
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }//Fim da Classe / End of Class;
