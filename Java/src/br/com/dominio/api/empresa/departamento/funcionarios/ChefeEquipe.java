@@ -16,7 +16,7 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
 public class ChefeEquipe extends Funcionario
 {
-    private final ArrayList<Funcionario> listaFuncionarios = new ArrayList<>();
+    private static final ArrayList<Equipe> listaEquipe = new ArrayList<>(1);
 
     //Fim do Campo de Declaração de Atributos  / End of Attributes Declaration Field;
 
@@ -36,40 +36,15 @@ public class ChefeEquipe extends Funcionario
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
-
-
-    public final ArrayList<Funcionario> retornarListaFuncionarios()
-    {
-        return listaFuncionarios;
     }
-    //Fim do Métodos Retornadores / End of Getters Methods;
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
-    public final void inserirFuncionarioDepartamento(Funcionario novoFuncionario)
+
+    public final ArrayList<Equipe> retornarListaEquipe()
     {
-        if (listaFuncionarios.contains(novoFuncionario))
-        {
-            System.out.println("Já existe esse Funcionaro / Already exists this Funcionario");
-        }
-
-        else
-        {
-            listaFuncionarios.add(novoFuncionario);
-        }
+        return listaEquipe;
     }
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
-    public final void removerFuncionarioDepartamento(Funcionario removerFuncionario)
-    {
-        if (listaFuncionarios.contains(removerFuncionario))
-        {
-            listaFuncionarios.remove(removerFuncionario);
-        }
-
-        else
-        {
-            System.out.println("O Funcionario não existe / The Funcionario don't exists");
-        }
-    }
-    //Fim dos Métodos Modificadores / End of Setters Methods;
 
 }//Fim da Classe;

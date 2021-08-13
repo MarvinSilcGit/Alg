@@ -5,6 +5,7 @@ public final class MainDepartamento
 {
     public final static void main (String [] args)
     {
+        System.out.println("qqwqw");
 
     }//Fim do Método Main / End of Main Method;
 

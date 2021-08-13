@@ -40,6 +40,7 @@ public final class Diretor extends Funcionario
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
+
         this.assistente = assistente;
 
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
