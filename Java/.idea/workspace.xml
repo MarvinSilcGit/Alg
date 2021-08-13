@@ -9,16 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/dados/MainDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/MainHospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Coren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/MainReguladorProfissao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/universidade/MainUniversidade.java" afterDir="false" />
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="adicionando classes e pacotes / adding classes and packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +60,26 @@
       <recent name="br.com.dominio.api.pessoas.dados" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDepartamento">
+  <component name="RunManager" selected="Application.MainHospital">
     <configuration name="MainDepartamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.dominio.api.empresa.departamento.MainDepartamento" />
       <module name="Classes" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.dominio.api.empresa.departamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainHospital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dominio.hospital.MainHospital" />
+      <module name="Classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dominio.hospital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +116,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainPessoas" />
-      <item itemvalue="JAR Application.API.jar" />
-      <item itemvalue="JAR Application.MainApi" />
       <item itemvalue="Application.MainDepartamento" />
+      <item itemvalue="JAR Application.MainApi" />
+      <item itemvalue="JAR Application.API.jar" />
+      <item itemvalue="Application.MainHospital" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainHospital" />
         <item itemvalue="Application.MainDepartamento" />
         <item itemvalue="JAR Application.API.jar" />
         <item itemvalue="Application.MainPessoas" />
@@ -313,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628863244704</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adicionando classes e pacotes / adding classes and packages">
+      <created>1628883072874</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1628883072874</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,6 +352,7 @@
     <MESSAGE value="Aprimorando, adicionando e removendo / improving, adding and removing" />
     <MESSAGE value="Aprimorando e removendo / improving and removing" />
     <MESSAGE value="Aprimorando / improving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando / improving" />
+    <MESSAGE value="adicionando classes e pacotes / adding classes and packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando classes e pacotes / adding classes and packages" />
   </component>
 </project>
