@@ -1,7 +1,7 @@
 package br.com.dominio.api.empresa.departamento;
 
 
-import java.util.Dictionary;
+import java.util.Hashtable;
 
 //Fim dos Imports / End of Imports;
 

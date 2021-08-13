@@ -3,7 +3,7 @@ package br.com.dominio.api.empresa.departamento.funcionarios;
 
 import java.util.Date;
 
-import java.util.Dictionary;
+import java.util.Hashtable;
 
 import br.com.dominio.api.pessoas.Funcionario;
 
@@ -16,10 +16,16 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
 public class Assistente extends Funcionario
 {
+    private final Hashtable<String, String> agenda = new Hashtable<>();
+
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
+
+
     public Assistente()
     {
 
-    }//Fim do Construtor Padrão / End of Personalized Constructor;
+    }//Fim do Construtor Padrão / End of Default Constructor;
+
 
     public Assistente(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
@@ -32,5 +38,25 @@ public class Assistente extends Funcionario
 
 
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
+
+
+    public final Hashtable<String, String> retornarAgenda()
+    {
+        return agenda;
+    }
+    //Fim dos Métodos Retornadores / Enf of Getters Methods;
+
+
+    public final void agendarReuniao(String titulo, String resumo)
+    {
+        agenda.put(titulo, resumo);
+    }
+
+    public final void removerReuniao(String titulo)
+    {
+        agenda.remove(titulo);
+    }
+    //Fim dos Métodos Modificadores / End of Setters Methods;
+
 
 }//Fim da Classe / End of Class;

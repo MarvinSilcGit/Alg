@@ -7,6 +7,7 @@ import java.util.Date;
 
 //Fim dos Imports / End of Imports;
 
+
 public abstract class Cidadao
 {
     private String nome;
@@ -18,6 +19,7 @@ public abstract class Cidadao
     private Endereco endereco;
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
+
 
     public Cidadao ()
     {
@@ -34,6 +36,7 @@ public abstract class Cidadao
 
         this.endereco = endereco;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
+
 
     public final String retornarNome()
     {
@@ -55,5 +58,6 @@ public abstract class Cidadao
         return endereco.retornarEnderecoCompleto();
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
+
 
 }//Fim da classe / End of Class;

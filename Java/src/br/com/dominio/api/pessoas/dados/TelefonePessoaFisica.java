@@ -5,7 +5,8 @@ public final class TelefonePessoaFisica extends Telefone
 {
     private long cpfVinculado;
 
-    //Fim do Campo de Declaração de Atributos / End of Attribute Declaration Field;
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
+
 
     public TelefonePessoaFisica()
     {
@@ -21,7 +22,9 @@ public final class TelefonePessoaFisica extends Telefone
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
+
         this.cpfVinculado = cpfVinculado;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
+
 
 }//Fim da Classe / End of Class;

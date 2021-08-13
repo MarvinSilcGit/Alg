@@ -18,7 +18,7 @@ public final class Departamento
 
     private double orcamentoTrimestral;
 
-    private ArrayList<Funcionario> listaFuncionarios = new ArrayList<>();
+
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -81,32 +81,6 @@ public final class Departamento
     public final void alterOrcamentoTrimestral(double novoOrcamentoTrimestral)
     {
         orcamentoTrimestral = novoOrcamentoTrimestral;
-    }
-
-    public final void inserirFuncionarioDepartamento(Funcionario novoFuncionario)
-    {
-        if (listaFuncionarios.contains(novoFuncionario))
-        {
-            System.out.println("Já existe esse Funcionaro / Already exists this Funcionario");
-        }
-
-        else
-        {
-            listaFuncionarios.add(novoFuncionario);
-        }
-    }
-
-    public final void removerFuncionarioDepartamento(Funcionario removerFuncionario)
-    {
-        if (listaFuncionarios.contains(removerFuncionario))
-        {
-            listaFuncionarios.remove(removerFuncionario);
-        }
-
-        else
-        {
-            System.out.println("O Funcionario não existe / The Funcionario don't exists");
-        }
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
 

@@ -10,7 +10,8 @@ public abstract class Telefone
 
     private String operadora;
 
-    //Fim do campo de declaração de atributos / End of attributes Declaration Field;
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
+
 
     public Telefone()
     {
@@ -26,24 +27,20 @@ public abstract class Telefone
         this.numero = numero;
 
         this.operadora = operadora;
-    }//Fim do Construtor Personalizado para uso das seguintes Classes: Cidadao / End of Personalized Constructor for use of following classes: Cidadao;
+    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+
 
     public final String retornarNumeroCompleto()
     {
         return "DDI: " + ddi + ", DDD: " + ddd + ", Número: " + numero;
     }
 
-    /*public final long retornarCpfUsuario()
-    {
-        return cpfUsuarioVinculado.retornarCpf();
-    }*/
-
     public final String retornarOperadora()
     {
         return operadora;
     }
-
     //Fim dos Métodos Retornadores / End of Getters Methods;
+
 
 }//Fim da Classe / End of Class;
 

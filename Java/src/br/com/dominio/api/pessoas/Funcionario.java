@@ -1,11 +1,11 @@
 package br.com.dominio.api.pessoas;
 
 
+import java.util.Date;
+
 import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
 import br.com.dominio.api.pessoas.dados.Endereco;
-
-import java.util.Date;
 
 //Fim dos imports / End of imports;
 
