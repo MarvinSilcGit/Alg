@@ -1,6 +1,8 @@
 package br.com.dominio.api.empresa.departamento;
 
 
+import java.util.Hashtable;
+
 import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
 
 import br.com.dominio.api.empresa.departamento.funcionarios.ViceDiretor;
@@ -18,7 +20,7 @@ public final class Departamento
 
     private double orcamentoTrimestral;
 
-
+    private final Hashtable<String, Double> listaDespesas = new Hashtable<>();
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -60,6 +62,11 @@ public final class Departamento
     {
         return orcamentoTrimestral;
     }
+
+    public final Hashtable<String, Double> retornarListaDespesas()
+    {
+        return listaDespesas;
+    }
     //Fim do Métodos Retornadores / End of Getter Methods;
 
 
@@ -83,5 +90,6 @@ public final class Departamento
         orcamentoTrimestral = novoOrcamentoTrimestral;
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
+
 
 }//Fim da Classe / End of Class;
