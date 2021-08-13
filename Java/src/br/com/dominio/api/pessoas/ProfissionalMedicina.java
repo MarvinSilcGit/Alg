@@ -20,7 +20,8 @@ public abstract class ProfissionalMedicina extends Funcionario
     public ProfissionalMedicina()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
@@ -39,7 +40,8 @@ public abstract class ProfissionalMedicina extends Funcionario
         this.crm = crm;
 
         this.valorConsulta = valorConsulta;
-    }//Fim do Construtor Personalizado / Ends of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
 
     public final String retornarCrm()

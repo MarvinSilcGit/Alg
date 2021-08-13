@@ -18,7 +18,8 @@ public  abstract class ProfissionalMedicinaCirurgia extends ProfissionalMedicina
     public ProfissionalMedicinaCirurgia()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public ProfissionalMedicinaCirurgia(String nome,long cpf, Date dataNascimento, Endereco endereco,
@@ -38,7 +39,8 @@ public  abstract class ProfissionalMedicinaCirurgia extends ProfissionalMedicina
 
 
         this.valorCirurgia = valorCirurgia;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final float retornarValorCirurgia()

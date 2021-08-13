@@ -7,7 +7,9 @@ public final class MainPessoas
     {
         System.out.println("aaa");
 
-    }//Fim do método main / End of Main Method;
+    }
+    //Fim do método main / End of Main Method;
 
 
-}//Fim da classe / End of Class;
+}
+//Fim da classe / End of Class;

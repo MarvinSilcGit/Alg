@@ -24,7 +24,8 @@ public abstract class Cidadao
     public Cidadao ()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
     public Cidadao (String nome, long cpf, Date dataNascimento, Endereco endereco)
     {
@@ -35,7 +36,8 @@ public abstract class Cidadao
         this.dataNascimento = dataNascimento;
 
         this.endereco = endereco;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final String retornarNome()

@@ -18,7 +18,8 @@ public abstract class ProfissionalFarmacia extends Funcionario
     public ProfissionalFarmacia()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public ProfissionalFarmacia(String nome, long cpf, Date dataNascimento, Endereco endereco,
@@ -36,7 +37,8 @@ public abstract class ProfissionalFarmacia extends Funcionario
 
 
         this.crf = crf;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final String retornarCrf()
