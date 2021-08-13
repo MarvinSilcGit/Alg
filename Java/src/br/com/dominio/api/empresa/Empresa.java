@@ -28,7 +28,7 @@ public abstract class Empresa
     private long cnpj;
 
     private Funcionario presidente,
-    vicePresidente;
+            vicePresidente;
 
     private Endereco endereco;
 
@@ -43,7 +43,10 @@ public abstract class Empresa
     }//Fim do Construtor Padrão / End of Default Constructor;
 
 
-    public Empresa(String razaoSocial, String nomeFantasia, double capitalSocial, long cnpj, Funcionario presidente, Funcionario vicePresidente, Endereco endereco, TelefonePessoaJuridica telefone)
+    public Empresa(String razaoSocial, String nomeFantasia, double capitalSocial, long cnpj, Funcionario presidente, Funcionario vicePresidente,
+
+                   Endereco endereco, TelefonePessoaJuridica telefone)
+
     {
         this.razaoSocial = razaoSocial;
 
@@ -117,7 +120,7 @@ public abstract class Empresa
 
     public final void inserirDepartamentoLista(Departamento novoDepartamento)
     {
-        if (listaDepartamentos.size() == 50)
+        if (listaDepartamentos.size() == 10)
         {
             System.out.println("Não é mais possível inserir Departamento / Is no longer possible insertDepartamento");
         }
@@ -143,7 +146,7 @@ public abstract class Empresa
 
     public final void inserirFundadoresLista(String nomeFundador)
     {
-        if (listaFundadores.size() == 20)
+        if (listaFundadores.size() == 10)
         {
             System.out.println("Não é mais possivel inserir Fundador / Is no longer insert Founder");
         }
