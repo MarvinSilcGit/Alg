@@ -5,8 +5,6 @@ import java.util.Hashtable;
 
 import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
 
-import br.com.dominio.api.empresa.departamento.funcionarios.ViceDiretor;
-
 //Fim dos Imports / End of Imports;
 
 
@@ -15,8 +13,6 @@ public final class Departamento
     private String nome;
 
     private Diretor diretor;
-
-    private ViceDiretor viceDiretor;
 
     private double orcamentoTrimestral;
 
@@ -31,13 +27,11 @@ public final class Departamento
     }//Fim do Construtor Padrão / End of Default Constructor;
 
 
-    public Departamento(String nome, Diretor diretor, ViceDiretor viceDiretor, double orcamentoTrimestral)
+    public Departamento(String nome, Diretor diretor, double orcamentoTrimestral)
     {
         this.nome = nome;
 
         this.diretor = diretor;
-
-        this.viceDiretor = viceDiretor;
 
         this.orcamentoTrimestral = orcamentoTrimestral;
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
@@ -51,11 +45,6 @@ public final class Departamento
     public final String retornarDiretor()
     {
         return diretor.retornarNome();
-    }
-
-    public final String retornarViceDiretor()
-    {
-        return viceDiretor.retornarNome();
     }
 
     public final double retornarOrcamentoTrimestral()
@@ -80,14 +69,35 @@ public final class Departamento
         diretor = novoDiretor;
     }
 
-    public final void alterarViceDiretor(ViceDiretor novoViceDiretor)
-    {
-        viceDiretor = novoViceDiretor;
-    }
-
     public final void alterOrcamentoTrimestral(double novoOrcamentoTrimestral)
     {
-        orcamentoTrimestral = novoOrcamentoTrimestral;
+         orcamentoTrimestral = novoOrcamentoTrimestral;
+    }
+
+    public final void inserirDespesaLista(String titulo, Double valor)
+    {
+        if (listaDespesas.contains(titulo))
+        {
+            System.out.println("Já existe essa Depesa / Already exists this Expense");
+        }
+
+        else
+        {
+            listaDespesas.put(titulo, valor);
+        }
+    }
+
+    public final void removerDespesaLista(String titulo)
+    {
+        if (listaDespesas.contains(titulo))
+        {
+            listaDespesas.remove(titulo);
+        }
+
+        else
+        {
+            System.out.println("Essa Despesa não existe / This Expense don't exists");
+        }
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
 
