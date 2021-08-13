@@ -1,4 +1,4 @@
-package br.com.dominio.api.empresa.departamento;
+package br.com.dominio.api.empresa.departamento.funcionarios;
 
 
 import java.util.Date;

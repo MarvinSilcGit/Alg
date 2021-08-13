@@ -39,6 +39,12 @@ public class ChefeEquipe extends Funcionario
     }//Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
+    public final ArrayList<Funcionario> retornarListaFuncionarios()
+    {
+        return listaFuncionarios;
+    }
+    //Fim do Métodos Retornadores / End of Getters Methods;
+
     public final void inserirFuncionarioDepartamento(Funcionario novoFuncionario)
     {
         if (listaFuncionarios.contains(novoFuncionario))

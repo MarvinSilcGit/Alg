@@ -1,11 +1,9 @@
-package br.com.dominio.api.empresa.departamento;
+package br.com.dominio.api.empresa.departamento.funcionarios;
 
 
 import java.util.ArrayList;
 
 import java.util.Date;
-
-import br.com.dominio.api.empresa.departamento.funcionarios.Assistente;
 
 import br.com.dominio.api.pessoas.Funcionario;
 
@@ -55,7 +53,7 @@ public final class Diretor extends Funcionario
     {
         return listaGerentes;
     }
-    //Fim do Métodos Retornadores / End of Getter Methods;
+    //Fim do Métodos Retornadores / End of Getters Methods;
 
 
     public final void inseriGerenteLista(Gerente novoGerente)
