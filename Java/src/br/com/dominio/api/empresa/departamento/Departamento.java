@@ -8,7 +8,7 @@ import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
 //Fim dos Imports / End of Imports;
 
 
-public final class Departamento
+public abstract class Departamento
 {
     private String nome;
 

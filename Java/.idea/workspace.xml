@@ -9,9 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="adicionando classes e pacotes / adding classes and packages">
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/Assessoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crm/CirugiaoOrtopedista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crm/ClinicoGeral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crm/Ortopedista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/uti/Uti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/Empresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/Departamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/Despesas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/empresa/departamento/funcionarios/ViceDiretor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.dominio.hospital.alas.funcionarios.crm.tratamento" />
+      <recent name="br.com.dominio.hospital.alas.funcionarios.crm.cirurgia" />
+      <recent name="br.com.dominio.hospital.alas.funcionarios.crm" />
       <recent name="br.com.dominio.api.empresa.departamento.funcionarios" />
       <recent name="br.com.dominio.api.pessoas" />
-      <recent name="br.com.dominio.api.pessoas.dados" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainHospital">
@@ -328,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628883072874</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Aprimorando / improving">
+      <created>1628895322524</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1628895322524</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,8 +371,8 @@
     <MESSAGE value="Aprimorando e adicionando / improving and adding" />
     <MESSAGE value="Aprimorando, adicionando e removendo / improving, adding and removing" />
     <MESSAGE value="Aprimorando e removendo / improving and removing" />
-    <MESSAGE value="Aprimorando / improving" />
     <MESSAGE value="adicionando classes e pacotes / adding classes and packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando classes e pacotes / adding classes and packages" />
+    <MESSAGE value="Aprimorando / improving" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando / improving" />
   </component>
 </project>
