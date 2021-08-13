@@ -2,6 +2,7 @@ package br.com.dominio.api.empresa.departamento;
 
 
 import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
+
 import br.com.dominio.api.empresa.departamento.funcionarios.ViceDiretor;
 
 //Fim dos Imports / End of Imports;

@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando e adicionando / improving and adding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Despesas.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +48,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Classes_jar/Classes.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -102,8 +104,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainPessoas" />
-      <item itemvalue="JAR Application.MainApi" />
       <item itemvalue="JAR Application.API.jar" />
+      <item itemvalue="JAR Application.MainApi" />
       <item itemvalue="Application.MainDepartamento" />
     </list>
     <recent_temporary>
@@ -270,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628857138338</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Aprimorando e adicionando / improving and adding">
+      <created>1628859355235</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628859355235</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

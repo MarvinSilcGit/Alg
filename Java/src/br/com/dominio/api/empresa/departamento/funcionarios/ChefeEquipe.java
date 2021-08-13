@@ -49,4 +49,41 @@ public class ChefeEquipe extends Funcionario
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
 
+    public final void inserirEquipe(Equipe novaEquipe)
+    {
+        if (listaEquipe.size() == 0)
+        {
+            if (listaEquipe.contains(novaEquipe))
+            {
+                System.out.println("Já existe essa Equipe");
+            }
+
+            else
+            {
+                listaEquipe.add(novaEquipe);
+            }
+        }
+
+        else
+        {
+            System.out.println("Não pode adicionar mais Equipe / Can't add more Equipe");
+        }
+    }
+
+    public final void removerEquipe(Equipe removerEquipe)
+    {
+        if (listaEquipe.contains(removerEquipe))
+        {
+            listaEquipe.remove(removerEquipe);
+        }
+
+        else
+        {
+            System.out.println("Essa Equipe não existe / This Equipe don't exists");
+
+        }
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
+
+
 }//Fim da Classe;
