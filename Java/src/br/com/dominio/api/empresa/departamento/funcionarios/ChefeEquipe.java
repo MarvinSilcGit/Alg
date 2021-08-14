@@ -38,7 +38,6 @@ public final class ChefeEquipe extends Funcionario
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
-
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
@@ -86,5 +85,5 @@ public final class ChefeEquipe extends Funcionario
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
 
-
-}//Fim da Classe;
+}
+//Fim da Classe;

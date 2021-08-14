@@ -16,7 +16,8 @@ public abstract class Telefone
     public Telefone()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
     public Telefone(short ddi, short ddd, long numero, String operadora)
     {
@@ -27,7 +28,8 @@ public abstract class Telefone
         this.numero = numero;
 
         this.operadora = operadora;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final String retornarNumeroCompleto()
@@ -41,6 +43,6 @@ public abstract class Telefone
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;
 

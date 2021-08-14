@@ -47,5 +47,5 @@ public final class ProfissionalFarmacia extends Funcionario
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

@@ -21,7 +21,6 @@ public final class HospitalCardial extends Empresa
     private ArrayList<Departamento> listaAlas = new ArrayList<>();
 
 
-
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
 
@@ -40,9 +39,8 @@ public final class HospitalCardial extends Empresa
 
         //Fim do Método Super da classe mãe / End of Parent Class's Super Method;
 
-
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

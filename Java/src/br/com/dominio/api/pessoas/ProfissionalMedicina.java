@@ -101,5 +101,5 @@ public final class ProfissionalMedicina extends Funcionario
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

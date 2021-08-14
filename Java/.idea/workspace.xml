@@ -9,26 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/MainFuncionarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/MainFuncionarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando a legibilidade, aumentando o espaço entre seções e removendo classes redundantes / improving the readability by increasing the space between sections and removing redundant classes">
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Diretor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/MainFuncionarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/MainFuncionarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/MainPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/MainPessoas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFisioterapia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFisioterapia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalPsicologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalPsicologia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crm/cirurgia/CirugiaoOrtopedista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crm/tratamento/ClinicoGeral.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crm/tratamento/Ortopedista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crp/Psicologo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crp/Psiquiatra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/MainDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/MainDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/Assessoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/Assessoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/HospitalCardial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/MainHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/MainHospital.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628908660295</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Aprimorando a legibilidade, aumentando o espaço entre seções e removendo classes redundantes / improving the readability by increasing the space between sections and removing redundant classes">
+      <created>1628948955435</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1628948955436</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,6 +439,7 @@
     <MESSAGE value="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
     <MESSAGE value="modificando construtores e removendo classes / modifying constructors and removing classes" />
     <MESSAGE value="Aprimorando / improving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando / improving" />
+    <MESSAGE value="Aprimorando a legibilidade, aumentando o espaço entre seções e removendo classes redundantes / improving the readability by increasing the space between sections and removing redundant classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando a legibilidade, aumentando o espaço entre seções e removendo classes redundantes / improving the readability by increasing the space between sections and removing redundant classes" />
   </component>
 </project>

@@ -11,7 +11,8 @@ public final class TelefonePessoaJuridica extends Telefone
     public TelefonePessoaJuridica()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public TelefonePessoaJuridica(short ddd, short ddi, long numero, String operadora,
@@ -25,7 +26,9 @@ public final class TelefonePessoaJuridica extends Telefone
 
 
         this.cpfVinculado = cpfVinculado;
-    }//Fim do Construtor personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor personalizado / End of Personalized Constructor;
 
 
-}//Fim da Classe  / End of Class;
+}
+//Fim da Classe  / End of Class;

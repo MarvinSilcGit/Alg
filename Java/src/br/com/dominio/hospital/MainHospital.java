@@ -9,6 +9,5 @@ public final class MainHospital
     }
     //Fim do método main / End of Main Method;
 
-
 }
 //Fim da Classe / End of Class;

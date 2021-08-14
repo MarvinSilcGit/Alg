@@ -39,7 +39,6 @@ public final class Assistente extends Funcionario
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
-
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
@@ -62,5 +61,5 @@ public final class Assistente extends Funcionario
     }
     //Fim dos Métodos Modificadores / End of Setters Methods;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

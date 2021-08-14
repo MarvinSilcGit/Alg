@@ -43,7 +43,6 @@ public final class Diretor extends Funcionario
 
 
         this.assistente = assistente;
-
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
@@ -87,5 +86,5 @@ public final class Diretor extends Funcionario
     }
     //Fim dos Métodos Modificadores / End of Setters Methods;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

@@ -6,10 +6,8 @@ public final class MainPessoas
     public static final void main (String [] args)
     {
         System.out.println("aaa");
-
     }
     //Fim do método main / End of Main Method;
-
 
 }
 //Fim da classe / End of Class;

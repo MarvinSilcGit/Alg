@@ -17,7 +17,8 @@ public final class Endereco
     public Endereco()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
     public Endereco(String estado, String cidade, String bairro, String rua, String complemento, int numero, int cep)
     {
@@ -34,7 +35,8 @@ public final class Endereco
         this.numero = numero;
 
         this.cep = cep;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
     public final String retornarEnderecoCompleto()
     {
@@ -77,4 +79,5 @@ public final class Endereco
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

@@ -67,6 +67,5 @@ public final class ProfissionalFisioterapia extends Funcionario
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-
 }
 //Fim da Classe / End of Class;

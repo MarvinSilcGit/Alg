@@ -47,5 +47,5 @@ public final class ProfissionalEnfermagem extends Funcionario
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-
-}//Fim da classe  / End of CLass;
+}
+//Fim da classe  / End of CLass;

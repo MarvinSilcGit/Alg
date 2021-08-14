@@ -61,5 +61,5 @@ public abstract class Cidadao
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-
-}//Fim da classe / End of Class;
+}
+//Fim da classe / End of Class;

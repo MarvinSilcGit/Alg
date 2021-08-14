@@ -56,5 +56,5 @@ public final class Equipe
     }
     //Fim dos Métodos Modificadores / End of Setters Methods;
 
-
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

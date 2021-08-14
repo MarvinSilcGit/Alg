@@ -10,6 +10,5 @@ public final class MainFuncionarios
     }
     //Fim do Método Main / End of Main Method;
 
-
 }
 //Fim da Classe / End of Class;

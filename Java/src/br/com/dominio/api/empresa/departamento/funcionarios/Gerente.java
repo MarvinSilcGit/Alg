@@ -39,7 +39,6 @@ public final class Gerente extends Funcionario
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
-
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
@@ -77,7 +76,6 @@ public final class Gerente extends Funcionario
         }
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
-
 
 }
 //Fim da Classe / End of Class;
