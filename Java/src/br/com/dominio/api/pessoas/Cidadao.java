@@ -61,5 +61,11 @@ public abstract class Cidadao
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
+    public final void alterarEndereco(Endereco novoEndereco)
+    {
+        endereco = novoEndereco;
+    }
+    //Fim dos Métodos Modificadores / End of Setters Methods;
+
 }
 //Fim da classe / End of Class;

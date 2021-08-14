@@ -3,6 +3,10 @@ package br.com.dominio.api.empresa.departamento.funcionarios;
 
 import java.util.ArrayList;
 
+import br.com.dominio.api.empresa.departamento.Departamento;
+
+import br.com.dominio.api.empresa.Empresa;
+
 import br.com.dominio.api.pessoas.Funcionario;
 
 //Fim dos Imports / End of Imports;
@@ -11,6 +15,11 @@ import br.com.dominio.api.pessoas.Funcionario;
 public final class Equipe
 {
     private final ArrayList<Funcionario> listaFuncionarios = new ArrayList<>();
+
+    private String funcao,
+            nome;
+
+    private double tetoGastos;
 
     //Fim dos Imports / End of Imports;
 
@@ -21,15 +30,38 @@ public final class Equipe
     }
     //Fim do Construtor Padrão / End of Default Constructor;
 
+    public Equipe(String funcao, String nome, double tetoGastos)
+    {
+        this.funcao = funcao;
 
-    public final ArrayList<Funcionario> retornarListaFuncionarios()
+        this.nome = nome;
+
+        this.tetoGastos = tetoGastos;
+    }
+
+    public String retornarFuncao()
+    {
+        return funcao;
+    }
+
+    public String retornarNome()
+    {
+        return nome;
+    }
+
+    public double retornarTetoGastos()
+    {
+        return tetoGastos;
+    }
+
+    public ArrayList<Funcionario> retornarListaFuncionarios()
     {
         return listaFuncionarios;
     }
     //Fim do Métodos Retornadores / End of Getters Methods;
 
 
-    public final void inserirFuncionarioEquipe(Funcionario novoFuncionario)
+    public void inserirFuncionarioEquipe(Funcionario novoFuncionario)
     {
         if (listaFuncionarios.contains(novoFuncionario))
         {
@@ -42,7 +74,7 @@ public final class Equipe
         }
     }
 
-    public final void removerFuncionarioEquipe(Funcionario removerFuncionario)
+    public void removerFuncionarioEquipe(Funcionario removerFuncionario)
     {
         if (listaFuncionarios.contains(removerFuncionario))
         {

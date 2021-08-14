@@ -9,21 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/Maca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MacaPes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MacaRodinha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MainMaca.java" afterDir="false" />
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="adicionando classes, pacotes e métodos / adding classes, packages and methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/pessoas/dados/MainDados.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/api/pessoas/dados/MainDados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/hospital/api/Maca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/hospital/api/MainApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Classes/br/com/dominio/hospital/api/MainApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Cidadao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/MainDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/MainDados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/TelefonePessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/Maca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/MainApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/MainApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/Maca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/Maca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MainMaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MainMaca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628955796810</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="adicionando classes, pacotes e métodos / adding classes, packages and methods">
+      <created>1628967388291</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1628967388291</updated>
+    </task>
+    <task id="LOCAL-00043" summary="adicionando classes, pacotes e métodos / adding classes, packages and methods">
+      <created>1628967396479</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1628967396479</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,6 +496,7 @@
     <MESSAGE value="adicionando classes e pacotes / adding classes and packages" />
     <MESSAGE value="utilizando o método toString / using the toString Method" />
     <MESSAGE value="Aprimorando / improving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando / improving" />
+    <MESSAGE value="adicionando classes, pacotes e métodos / adding classes, packages and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando classes, pacotes e métodos / adding classes, packages and methods" />
   </component>
 </project>

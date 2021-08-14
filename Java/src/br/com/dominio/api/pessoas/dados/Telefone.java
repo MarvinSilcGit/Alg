@@ -4,7 +4,7 @@ package br.com.dominio.api.pessoas.dados;
 public abstract class Telefone
 {
     private short ddi,
-    ddd;
+            ddd;
 
     private long numero;
 
@@ -42,6 +42,29 @@ public abstract class Telefone
         return operadora;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
+
+
+    public final void alterarOperadora(String novaOperadora)
+    {
+        operadora = novaOperadora;
+    }
+
+    public final void alterarNumero(short novoDdd, long novoNumero)
+    {
+        ddd = novoDdd;
+
+        numero = novoNumero;
+    }
+
+    public final void alterarTelefone(short novoDdd, long novoNumero, String novaOperadora)
+    {
+        ddd = novoDdd;
+
+        numero = novoNumero;
+
+        operadora = novaOperadora;
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
 
 }
 //Fim da Classe / End of Class;

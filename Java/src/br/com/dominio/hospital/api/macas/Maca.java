@@ -91,7 +91,8 @@ public abstract class Maca
     public byte retornarQuantidadeBarrasLaterais()
     {
         return quantidadeBarrasLaterais;
-    }//Individualizar os métodos de cada variável
+    }
+    //Fim dos Métodos Retornadores / End of Getters Methods;
 
 }
 //Fim da Classe / End of Class;
