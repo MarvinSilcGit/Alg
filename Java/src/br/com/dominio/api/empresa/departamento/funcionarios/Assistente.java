@@ -24,20 +24,24 @@ public class Assistente extends Funcionario
     public Assistente()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public Assistente(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                      float salario, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
+                      float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
-        super(nome, cpf, dataNascimento, endereco, salario, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+        super(nome, cpf, dataNascimento, endereco,
+
+                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final Hashtable<String, String> retornarAgenda()

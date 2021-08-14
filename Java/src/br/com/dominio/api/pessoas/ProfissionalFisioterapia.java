@@ -40,7 +40,7 @@ public abstract class ProfissionalFisioterapia extends Funcionario
 
         this.crefito = crefito;
     }
-    //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 }
 //Fim da Classe / End of Class;

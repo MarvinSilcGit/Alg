@@ -9,11 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="modificando construtores e removendo classes / modifying constructors and removing classes">
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Assistente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Diretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFisioterapia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFisioterapia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalPsicologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalPsicologia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crp/Psicologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crp/Psicologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crp/Psiquiatra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/funcionarios/crp/Psiquiatra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +45,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1wYN2e0zHATYInVkbXhPAEJSXC7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -364,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628903608228</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Aprimorando / improving">
+      <created>1628904291141</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1628904291141</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,10 +396,10 @@
     <MESSAGE value="Aprimorando e adicionando / improving and adding" />
     <MESSAGE value="Aprimorando, adicionando e removendo / improving, adding and removing" />
     <MESSAGE value="Aprimorando e removendo / improving and removing" />
-    <MESSAGE value="Aprimorando / improving" />
     <MESSAGE value="adicionando classes e pacotes / adding classes and packages" />
     <MESSAGE value="Aprimorando a legibilidade, aumentando o espaço entre seções / improving the readability by increasing the space between sections" />
     <MESSAGE value="modificando construtores e removendo classes / modifying constructors and removing classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificando construtores e removendo classes / modifying constructors and removing classes" />
+    <MESSAGE value="Aprimorando / improving" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando / improving" />
   </component>
 </project>

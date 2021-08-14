@@ -26,24 +26,27 @@ public final class Diretor extends Funcionario
     public Diretor()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public Diretor(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                   float salario, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, Assistente assistente)
+                   float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, Assistente assistente)
 
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                salario, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
         this.assistente = assistente;
 
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
+
 
     public String retornarAssistente()
     {

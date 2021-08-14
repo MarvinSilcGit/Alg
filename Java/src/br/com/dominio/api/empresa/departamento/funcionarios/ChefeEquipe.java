@@ -24,16 +24,17 @@ public class ChefeEquipe extends Funcionario
     public ChefeEquipe()
     {
 
-    }//Fim do Construtor Padrão / End of Default Construtor;
+    }
+    //Fim do Construtor Padrão / End of Default Construtor;
 
     public ChefeEquipe(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                       float salario, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
+                       float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                salario, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 

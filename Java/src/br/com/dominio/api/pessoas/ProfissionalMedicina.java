@@ -3,6 +3,8 @@ package br.com.dominio.api.pessoas;
 
 import java.util.Date;
 
+import java.util.ArrayList;
+
 import br.com.dominio.api.pessoas.dados.*;
 
 //Fim dos Imports / End of Imports;
@@ -11,6 +13,8 @@ import br.com.dominio.api.pessoas.dados.*;
 public abstract class ProfissionalMedicina extends Funcionario
 {
     private String crm;
+
+    private ArrayList<Cidadao> listaPacientes = new ArrayList<>();
 
     //Fim do Campo de Declaração de Atributos / End of Attribute Declaration Field;
 
@@ -63,7 +67,39 @@ public abstract class ProfissionalMedicina extends Funcionario
         return crm;
     }
 
+    public final ArrayList<Cidadao> retornarListaPacientes()
+    {
+        return listaPacientes;
+    }
+
     //Fim dos Métodos Retornadores / End of Getters Methods;
+
+    public void inserirPacienteLista(Cidadao novoPaciente)
+    {
+        if (listaPacientes.contains(novoPaciente))
+        {
+            System.out.println("Já existe esse Paciente / Already exists this Paciente");
+        }
+
+        else
+        {
+            listaPacientes.add(novoPaciente);
+        }
+    }
+
+    public void removerPacienteLista(Cidadao removerPaciente)
+    {
+        if (listaPacientes.contains(removerPaciente))
+        {
+            listaPacientes.remove(removerPaciente);
+        }
+
+        else
+        {
+            System.out.println("Esse Paciente não existe / This Paciente don't exists");
+        }
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
 
 
 }//Fim da Classe / End of Class;

@@ -40,7 +40,7 @@ public abstract class ProfissionalPsicologia  extends Funcionario
 
         this.crp = crp;
     }
-    //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
     public final String retornarCrp()
     {
