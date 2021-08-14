@@ -19,6 +19,7 @@ public abstract class Funcionario extends Cidadao
 
     private String setor,
             funcao,
+            cargo,
             email,
             sexualidade,
             sexo;
@@ -39,7 +40,7 @@ public abstract class Funcionario extends Cidadao
 
     public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                        float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
+                        float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
         super (nome, cpf, dataNascimento, endereco);
@@ -54,6 +55,8 @@ public abstract class Funcionario extends Cidadao
         this.setor = setor;
 
         this.funcao = funcao;
+
+        this.cargo = cargo;
 
         this.email = email;
 
@@ -70,7 +73,7 @@ public abstract class Funcionario extends Cidadao
 
     public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                        float salarioProdutividade, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal)
+                        float salarioProdutividade, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal)
 
     {
         super(nome, cpf, dataNascimento, endereco);
@@ -85,6 +88,8 @@ public abstract class Funcionario extends Cidadao
         this.setor = setor;
 
         this.funcao = funcao;
+
+        this.cargo = cargo;
 
         this.email = email;
 
@@ -122,6 +127,11 @@ public abstract class Funcionario extends Cidadao
     public final String retornarFuncao()
     {
         return funcao;
+    }
+
+    public final String retornarCargo()
+    {
+        return cargo;
     }
 
     public final String retornarEmail()
@@ -174,6 +184,11 @@ public abstract class Funcionario extends Cidadao
     public final void alterarFuncao(String novaFuncao)
     {
         funcao = novaFuncao;
+    }
+
+    public final void alterarCargo(String novoCargo)
+    {
+        cargo = novoCargo;
     }
 
     public final void alterarEmail(String novoEmail)

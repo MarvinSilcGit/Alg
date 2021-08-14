@@ -28,13 +28,13 @@ public abstract class ProfissionalMedicina extends Funcionario
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                                float valorConsulta, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
+                                float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
 
                                 String crm)
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                valorConsulta, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
+                valorConsulta, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
@@ -45,14 +45,14 @@ public abstract class ProfissionalMedicina extends Funcionario
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                                float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
+                                float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
 
                                 String crm)
 
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                salarioFixo, expedienteSemanal, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 

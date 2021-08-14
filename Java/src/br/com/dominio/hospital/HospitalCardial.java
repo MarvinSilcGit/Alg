@@ -16,7 +16,7 @@ import br.com.dominio.api.empresa.departamento.Departamento;
 //Fim dos Imports / End of Imports;
 
 
-public class HospitalCardial extends Empresa
+public final class HospitalCardial extends Empresa
 {
     private ArrayList<Departamento> listaAlas = new ArrayList<>();
 

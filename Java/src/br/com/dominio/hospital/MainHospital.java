@@ -1,7 +1,7 @@
 package br.com.dominio.hospital;
 
 
-public class MainHospital
+public final class MainHospital
 {
     public static void main (String [] args)
     {

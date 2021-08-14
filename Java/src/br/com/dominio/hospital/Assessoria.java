@@ -8,7 +8,7 @@ import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
 //Fim dos Imports / End of Imports;
 
 
-public class Assessoria extends Departamento
+public final class Assessoria extends Departamento
 {
     //private
 
