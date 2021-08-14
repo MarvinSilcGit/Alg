@@ -39,6 +39,24 @@ public abstract class ProfissionalMedicina extends Funcionario
     }
     //Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
+    public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
+
+                                float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
+
+                                String crm)
+
+    {
+        super(nome, cpf, dataNascimento, endereco,
+
+                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+
+
+        this.crm = crm;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
+
 
     public final String retornarCrm()
     {

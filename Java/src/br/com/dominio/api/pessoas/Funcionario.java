@@ -68,7 +68,9 @@ public abstract class Funcionario extends Cidadao
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
-    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, float salarioProdutividade, String setor, String funcao, String email, String sexualidade, String sexo,Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal)
+    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco,
+
+                        float salarioProdutividade, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal)
 
     {
         super(nome, cpf, dataNascimento, endereco);
