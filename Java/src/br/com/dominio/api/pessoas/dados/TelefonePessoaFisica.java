@@ -29,5 +29,18 @@ public final class TelefonePessoaFisica extends Telefone
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
+    public long retornarCpfVinculado()
+    {
+        return cpfVinculado;
+    }
+    //Fim dos Métodos Retornadores / End of Getters Methods;
+
+
+    public void alterarCpfVinculado(long novoCpf)
+    {
+        cpfVinculado = novoCpf;
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
+
 }
 //Fim da Classe / End of Class;

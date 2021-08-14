@@ -35,49 +35,52 @@ public final class Endereco
         this.numero = numero;
 
         this.cep = cep;
-    }
-    //Fim do Construtor Personalizado / End of Personalized Constructor;
+    }//Fim do Construtor Personalizado / End of Personalized Constructor;
 
-    public final String retornarEnderecoCompleto()
+    public String retornarEnderecoCompleto()
     {
-        return "Estado: " + estado + ", Cidade:" + cidade +  ", Rua: " + rua + ", Complemento: " + complemento + ", Número: " + numero + ", Bairro: " + bairro + ", CEP: " + cep;
+        return "Estado: " + estado + ", Cidade:" + cidade + ", Bairro: " + bairro + ", Rua: " + rua + ", Complemento: " + complemento + ", Número: " + numero + ", CEP: " + cep;
     }
 
-    public final String retornarEstado()
+    public String retornarEstado()
     {
         return estado;
     }
 
-    public final String retornarCidade()
+    public String retornarCidade()
     {
         return cidade;
     }
 
-    public final String retornarBairro()
+    public String retornarBairro()
     {
         return bairro;
     }
 
-    public final String retornarRua()
+    public String retornarRua()
     {
         return rua;
     }
 
-    public final String retornarComplemento()
+    public String retornarComplemento()
     {
         return complemento;
     }
 
-    public final int retornarNumero()
+    public int retornarNumero()
     {
         return numero;
     }
 
-    public final int retornarCep()
+    public int retornarCep()
     {
         return cep;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-}
-//Fim da Classe / End of Class;
+    public void alterarEstado()
+    {
+
+    }
+
+}//Fim da Classe / End of Class;

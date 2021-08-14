@@ -3,7 +3,7 @@ package br.com.dominio.api.pessoas.dados;
 
 public final class MainDados
 {
-    public static final void main (String [] args)
+    public static void main (String [] args)
     {
 
     }
