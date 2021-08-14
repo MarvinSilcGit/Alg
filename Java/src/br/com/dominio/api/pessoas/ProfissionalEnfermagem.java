@@ -8,7 +8,7 @@ import br.com.dominio.api.pessoas.dados.*;
 //Fim dos imports / End of Imports;
 
 
-public abstract class ProfissionalEnfermagem extends Funcionario
+public final class ProfissionalEnfermagem extends Funcionario
 {
     private String coren;
 
@@ -46,11 +46,6 @@ public abstract class ProfissionalEnfermagem extends Funcionario
         return coren;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
-
-
-    public abstract void realizarAtendimento();
-
-    //Fim dos Métodos Abstratos / End of Abstracts Methods;
 
 
 }//Fim da classe  / End of CLass;

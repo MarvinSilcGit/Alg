@@ -14,7 +14,7 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 //Fim dos Imports / End of Imports;
 
 
-public class Assistente extends Funcionario
+public final class Assistente extends Funcionario
 {
     private final Hashtable<String, String> agenda = new Hashtable<>();
 
@@ -30,12 +30,12 @@ public class Assistente extends Funcionario
 
     public Assistente(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                      float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
+                      float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                salarioFixo, expedienteSemanal, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 

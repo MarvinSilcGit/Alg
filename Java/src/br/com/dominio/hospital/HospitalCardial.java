@@ -28,7 +28,8 @@ public final class HospitalCardial extends Empresa
     public HospitalCardial()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
     public HospitalCardial(String razaoSocial, String nomeFantasia, double capitalSocial, long cnpj, Funcionario presidente, Funcionario vicePresidente,
 
@@ -40,7 +41,8 @@ public final class HospitalCardial extends Empresa
         //Fim do Método Super da classe mãe / End of Parent Class's Super Method;
 
 
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
 }//Fim da Classe / End of Class;

@@ -64,7 +64,8 @@ public abstract class Empresa
         this.endereco = endereco;
 
         this.telefone = telefone;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final String retornarRazaoSocial()

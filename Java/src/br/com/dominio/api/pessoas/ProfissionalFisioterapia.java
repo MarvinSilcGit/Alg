@@ -10,7 +10,7 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 //Fim dos Imports / End of Imports;
 
 
-public abstract class ProfissionalFisioterapia extends Funcionario
+public final class ProfissionalFisioterapia extends Funcionario
 {
     private String crefito;
 
@@ -42,10 +42,31 @@ public abstract class ProfissionalFisioterapia extends Funcionario
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
+    public ProfissionalFisioterapia(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-    public abstract void realizarConsulta();
+                                  float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
 
-    //Fim dos Métodos Abstratos / End of Abstracts Methods;
+                                  String crefito)
+
+    {
+        super(nome, cpf, dataNascimento, endereco,
+
+                valorConsulta, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
+
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+
+
+        this.crefito = crefito;
+    }
+    //Fim do Construtor Personalizado / Ends of Personalized Constructor;
+
+
+    public String retornarCrefito()
+    {
+        return crefito;
+    }
+    //Fim dos Métodos Retornadores / End of Getters Methods;
+
 
 }
 //Fim da Classe / End of Class;

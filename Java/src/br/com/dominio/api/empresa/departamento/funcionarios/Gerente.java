@@ -14,7 +14,7 @@ import br.com.dominio.api.pessoas.dados.Endereco;
 //Fim dos Imports / End of Imports;
 
 
-public class Gerente extends Funcionario
+public final class Gerente extends Funcionario
 {
     private ArrayList<ChefeEquipe> listaChefesEquipes = new ArrayList<>();
 
@@ -24,17 +24,18 @@ public class Gerente extends Funcionario
     public Gerente()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public Gerente(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                   float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
+                   float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                salarioFixo, expedienteSemanal, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                salarioFixo, expedienteSemanal, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
@@ -78,4 +79,5 @@ public class Gerente extends Funcionario
     //Fim do Métodos Modificadores / End of Setters Methods;
 
 
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

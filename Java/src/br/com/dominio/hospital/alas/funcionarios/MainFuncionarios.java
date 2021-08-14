@@ -1,7 +1,8 @@
-package br.com.dominio.hospital;
+package br.com.dominio.hospital.alas.funcionarios;
 
 
-public final class MainHospital
+
+public class MainFuncionarios
 {
     public static void main (String [] args)
     {

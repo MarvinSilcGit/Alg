@@ -10,7 +10,7 @@ import br.com.dominio.api.pessoas.dados.*;
 //Fim dos Imports / End of Imports;
 
 
-public abstract class ProfissionalMedicina extends Funcionario
+public final class ProfissionalMedicina extends Funcionario
 {
     private String crm;
 
@@ -24,24 +24,6 @@ public abstract class ProfissionalMedicina extends Funcionario
 
     }
     //Fim do Construtor Padrão / End of Default Constructor;
-
-
-    public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
-
-                                float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
-
-                                String crm)
-    {
-        super(nome, cpf, dataNascimento, endereco,
-
-                valorConsulta, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
-
-        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
-
-
-        this.crm = crm;
-    }
-    //Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
@@ -61,6 +43,23 @@ public abstract class ProfissionalMedicina extends Funcionario
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
+    public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
+
+                                float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
+
+                                String crm)
+    {
+        super(nome, cpf, dataNascimento, endereco,
+
+                valorConsulta, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
+
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+
+
+        this.crm = crm;
+    }
+    //Fim do Construtor Personalizado / Ends of Personalized Constructor;
+
 
     public final String retornarCrm()
     {
@@ -73,6 +72,7 @@ public abstract class ProfissionalMedicina extends Funcionario
     }
 
     //Fim dos Métodos Retornadores / End of Getters Methods;
+
 
     public void inserirPacienteLista(Cidadao novoPaciente)
     {
@@ -100,11 +100,6 @@ public abstract class ProfissionalMedicina extends Funcionario
         }
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
-
-
-    public abstract void realizarConsulta();
-
-    //Fim dos Métodos Abstratos / End of Abstracts Methods;
 
 
 }//Fim da Classe / End of Class;

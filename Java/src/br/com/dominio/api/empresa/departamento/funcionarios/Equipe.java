@@ -8,7 +8,7 @@ import br.com.dominio.api.pessoas.Funcionario;
 //Fim dos Imports / End of Imports;
 
 
-public class Equipe
+public final class Equipe
 {
     private final ArrayList<Funcionario> listaFuncionarios = new ArrayList<>();
 
@@ -18,7 +18,8 @@ public class Equipe
     public Equipe()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public final ArrayList<Funcionario> retornarListaFuncionarios()

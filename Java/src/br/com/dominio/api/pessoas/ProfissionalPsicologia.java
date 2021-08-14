@@ -10,7 +10,7 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 //Fim dos Imports / End of Imports;
 
 
-public abstract class ProfissionalPsicologia  extends Funcionario
+public final class ProfissionalPsicologia extends Funcionario
 {
     private String crp;
 
@@ -42,17 +42,30 @@ public abstract class ProfissionalPsicologia  extends Funcionario
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
+    public ProfissionalPsicologia(String nome, long cpf, Date dataNascimento, Endereco endereco,
+
+                                  float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
+
+                                  String crp)
+
+    {
+        super(nome, cpf, dataNascimento, endereco,
+
+                valorConsulta, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
+
+        //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+
+
+        this.crp = crp;
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
+
+
     public final String retornarCrp()
     {
         return crp;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
-
-
-    public abstract void realizarConsulta();
-
-    //Fim dos Métodos Abstratos / End of Abstracts Methods;
-
 
 }
 //Fim da Classe / End of Class;

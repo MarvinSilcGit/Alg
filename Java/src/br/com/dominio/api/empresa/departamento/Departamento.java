@@ -24,7 +24,8 @@ public abstract class Departamento
     public Departamento()
     {
 
-    }//Fim do Construtor Padrão / End of Default Constructor;
+    }
+    //Fim do Construtor Padrão / End of Default Constructor;
 
 
     public Departamento(String nome, Diretor diretor, double orcamentoTrimestral)
@@ -34,7 +35,8 @@ public abstract class Departamento
         this.diretor = diretor;
 
         this.orcamentoTrimestral = orcamentoTrimestral;
-    }//Fim do Construtor Personalizado / End of Personalized Constructor;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
     public final String retornarNome()
