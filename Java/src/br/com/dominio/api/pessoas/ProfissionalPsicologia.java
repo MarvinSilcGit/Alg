@@ -1,16 +1,16 @@
 package br.com.dominio.api.pessoas;
 
 
+import java.util.Date;
+
 import br.com.dominio.api.pessoas.dados.Endereco;
 
 import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
-import java.util.Date;
-
 //Fim dos Imports / End of Imports;
 
 
-public class ProfissionalPsicologia  extends Funcionario
+public abstract class ProfissionalPsicologia  extends Funcionario
 {
     private String crp;
 
@@ -23,6 +23,7 @@ public class ProfissionalPsicologia  extends Funcionario
     }
     //Fim do Construtor Padrão / End of Default Constructor;
 
+
     public ProfissionalPsicologia(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
                                   float salario, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
@@ -32,14 +33,14 @@ public class ProfissionalPsicologia  extends Funcionario
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                salario, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
         this.crp = crp;
-
-    }//Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
+    }
+    //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
     public final String retornarCrp()
     {
@@ -47,4 +48,5 @@ public class ProfissionalPsicologia  extends Funcionario
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;

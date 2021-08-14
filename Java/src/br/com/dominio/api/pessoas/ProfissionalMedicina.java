@@ -12,8 +12,6 @@ public abstract class ProfissionalMedicina extends Funcionario
 {
     private String crm;
 
-    private float valorConsulta;
-
     //Fim do Campo de Declaração de Atributos / End of Attribute Declaration Field;
 
 
@@ -26,20 +24,18 @@ public abstract class ProfissionalMedicina extends Funcionario
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                                String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
+                                float valorConsulta, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
 
-                                String crm, float valorConsulta)
+                                String crm)
     {
         super(nome, cpf, dataNascimento, endereco,
 
-                setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone);
+                valorConsulta, setor, funcao, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
         this.crm = crm;
-
-        this.valorConsulta = valorConsulta;
     }
     //Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
@@ -49,10 +45,6 @@ public abstract class ProfissionalMedicina extends Funcionario
         return crm;
     }
 
-    public final float retornarValorConsulta()
-    {
-        return valorConsulta;
-    }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
 

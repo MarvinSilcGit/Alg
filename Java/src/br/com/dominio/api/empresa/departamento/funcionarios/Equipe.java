@@ -1,9 +1,9 @@
 package br.com.dominio.api.empresa.departamento.funcionarios;
 
 
-import br.com.dominio.api.pessoas.Funcionario;
-
 import java.util.ArrayList;
+
+import br.com.dominio.api.pessoas.Funcionario;
 
 //Fim dos Imports / End of Imports;
 

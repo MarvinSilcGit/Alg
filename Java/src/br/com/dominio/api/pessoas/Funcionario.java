@@ -12,7 +12,10 @@ import br.com.dominio.api.pessoas.dados.Endereco;
 
 public abstract class Funcionario extends Cidadao
 {
-    private float salario;
+    private float salarioFixo,
+            salarioProdutividade;
+
+    private short expedienteSemanal;
 
     private String setor,
             funcao,
@@ -24,7 +27,7 @@ public abstract class Funcionario extends Cidadao
 
     private TelefonePessoaFisica telefone;
 
-    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field
+    //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
 
     public Funcionario ()
@@ -36,7 +39,7 @@ public abstract class Funcionario extends Cidadao
 
     public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                        float salario, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
+                        float salarioFixo, short expedienteSemanal, String setor, String funcao, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
         super (nome, cpf, dataNascimento, endereco);
@@ -44,7 +47,9 @@ public abstract class Funcionario extends Cidadao
         //Fim do Método Super da classe mãe / End of Parent Class's Super Method;
 
 
-        this.salario = salario;
+        this.salarioFixo = salarioFixo;
+
+        this.expedienteSemanal = expedienteSemanal;
 
         this.setor = setor;
 
@@ -60,18 +65,20 @@ public abstract class Funcionario extends Cidadao
 
         this.telefone = telefone;
     }
-    //Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalEnfermagem, ProfissionalFarmacia, Diretor e ViceDiretor / End of Personalized Constructor for using of following classes: ProfissionalEnfermagem, ProfissionialFarmacia, Diretor and ViceDiretor;
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
-    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco,
-
-                        String setor, String funcao, String email, String sexualidade, String sexo,Date dataAdmissao, TelefonePessoaFisica telefone)
+    public Funcionario (String nome, long cpf, Date dataNascimento, Endereco endereco, float salarioProdutividade, String setor, String funcao, String email, String sexualidade, String sexo,Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal)
 
     {
         super(nome, cpf, dataNascimento, endereco);
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
+
+        this.salarioProdutividade = salarioProdutividade;
+
+        this.expedienteSemanal = expedienteSemanal;
 
         this.setor = setor;
 
@@ -86,12 +93,23 @@ public abstract class Funcionario extends Cidadao
         this.dataAdmissao = dataAdmissao;
 
         this.telefone = telefone;
-    }//Fim do Construtor Personalizado, para uso das seguintes classes: ProfissionalMedicina / End of Personalized Constructor for using of following classes: ProfissionalMedicina;
+    }
+    //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
-    public final float retornarSalario()
+    public final float retornarSalarioFixo()
     {
-        return salario;
+        return salarioFixo;
+    }
+
+    public final float retornarSalarioProdutividade()
+    {
+        return salarioProdutividade;
+    }
+
+    public final short retornarExpedienteSemanal()
+    {
+        return expedienteSemanal;
     }
 
     public final String retornarSetor()
@@ -131,4 +149,41 @@ public abstract class Funcionario extends Cidadao
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
 
-}//Fim da Classe / End of Class;
+    public final void alterarSalarioFixo(float novoSalario)
+    {
+        salarioFixo = novoSalario;
+    }
+
+    public final void alterarSalarioProdutividade(float novoSalario)
+    {
+        salarioProdutividade = novoSalario;
+    }
+
+    public final void alterarExpedienteSemanal(short novoHorario)
+    {
+        expedienteSemanal = novoHorario;
+    }
+
+    public final void alterarSetor(String novoSetor)
+    {
+        setor = novoSetor;
+    }
+
+    public final void alterarFuncao(String novaFuncao)
+    {
+        funcao = novaFuncao;
+    }
+
+    public final void alterarEmail(String novoEmail)
+    {
+        email = novoEmail;
+    }
+
+    public final void alterarTelefone(TelefonePessoaFisica novoTelefone)
+    {
+        telefone = novoTelefone;
+    }
+    //Fim do Métodos Modificadores / End of Setters Methods;
+
+}
+//Fim da Classe / End of Class;
