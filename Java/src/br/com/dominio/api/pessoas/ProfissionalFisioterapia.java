@@ -42,5 +42,10 @@ public abstract class ProfissionalFisioterapia extends Funcionario
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
+
+    public abstract void realizarConsulta();
+
+    //Fim dos Métodos Abstratos / End of Abstracts Methods;
+
 }
 //Fim da Classe / End of Class;

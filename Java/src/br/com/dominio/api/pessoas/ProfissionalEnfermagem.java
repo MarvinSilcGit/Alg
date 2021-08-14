@@ -48,4 +48,9 @@ public abstract class ProfissionalEnfermagem extends Funcionario
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
 
+    public abstract void realizarAtendimento();
+
+    //Fim dos Métodos Abstratos / End of Abstracts Methods;
+
+
 }//Fim da classe  / End of CLass;

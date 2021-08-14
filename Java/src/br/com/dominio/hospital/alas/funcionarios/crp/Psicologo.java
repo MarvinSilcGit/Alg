@@ -41,5 +41,10 @@ public final class Psicologo extends ProfissionalPsicologia
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
+    @Override
+    public void realizarConsulta()
+    {
+
+    }
 }
 //Fim da Classe / End of Class;

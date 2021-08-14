@@ -47,5 +47,9 @@ public abstract class ProfissionalFarmacia extends Funcionario
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
+    public abstract void realizarAtendimento();
+
+    //Fim dos Métodos Abstratos / End of Abstracts Methods;
+
 
 }//Fim da Classe / End of Class;

@@ -102,4 +102,9 @@ public abstract class ProfissionalMedicina extends Funcionario
     //Fim do Métodos Modificadores / End of Setters Methods;
 
 
+    public abstract void realizarConsulta();
+
+    //Fim dos Métodos Abstratos / End of Abstracts Methods;
+
+
 }//Fim da Classe / End of Class;
