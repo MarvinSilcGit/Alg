@@ -20,7 +20,6 @@ public final class HospitalCardial extends Empresa
 {
     private ArrayList<Departamento> listaAlas = new ArrayList<>();
 
-
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
 
