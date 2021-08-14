@@ -19,7 +19,11 @@ public final class Equipe
     private String funcao,
             nome;
 
-    private double tetoGastos;
+    private float tetoGastos;
+
+    private Empresa empresa;
+
+    private Departamento departamento;
 
     //Fim dos Imports / End of Imports;
 
@@ -30,13 +34,16 @@ public final class Equipe
     }
     //Fim do Construtor Padrão / End of Default Constructor;
 
-    public Equipe(String funcao, String nome, double tetoGastos)
+    public void erer()
+    {
+        //fazer o teto de gastos de acordo com o número de departamento e o número de equipes da empresa;
+    }
+
+    public Equipe(String funcao, String nome)
     {
         this.funcao = funcao;
 
         this.nome = nome;
-
-        this.tetoGastos = tetoGastos;
     }
 
     public String retornarFuncao()
