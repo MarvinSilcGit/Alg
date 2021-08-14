@@ -1,11 +1,13 @@
 package br.com.dominio.hospital.api;
 
 
-public class MainApi
+public final class MainApi
 {
     public static void main (String [] args)
     {
+        Maca maca = new Maca(1,2,3,4);
 
+        System.out.println(maca);
     }
     //Fim do método main / End of Main Method;
 
