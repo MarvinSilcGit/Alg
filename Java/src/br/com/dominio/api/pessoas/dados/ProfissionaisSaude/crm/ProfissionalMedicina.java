@@ -1,4 +1,4 @@
-package br.com.dominio.api.pessoas.dados.ProfissionaisSaude;
+package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crm;
 
 
 import java.util.Date;

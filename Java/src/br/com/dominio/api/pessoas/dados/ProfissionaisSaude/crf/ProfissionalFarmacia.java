@@ -1,4 +1,4 @@
-package br.com.dominio.api.pessoas.dados.ProfissionaisSaude;
+package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crf;
 
 
 import java.util.Date;
@@ -7,7 +7,7 @@ import br.com.dominio.api.pessoas.Funcionario;
 
 import br.com.dominio.api.pessoas.dados.*;
 
-//Fim dos Imports / End of Import;
+//Fim dos Imports / End of Imports;
 
 
 public final class ProfissionalFarmacia extends Funcionario

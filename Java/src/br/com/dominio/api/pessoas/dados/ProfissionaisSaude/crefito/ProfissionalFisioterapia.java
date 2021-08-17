@@ -1,4 +1,4 @@
-package br.com.dominio.api.pessoas.dados.ProfissionaisSaude;
+package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crefito;
 
 
 import java.util.Date;
@@ -12,25 +12,25 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 //Fim dos Imports / End of Imports;
 
 
-public final class ProfissionalPsicologia extends Funcionario
+public final class ProfissionalFisioterapia extends Funcionario
 {
-    private String crp;
+    private String crefito;
 
     //Fim do Campo de Declaração de Atributos / End of Attribute Declaration Field;
 
 
-    public ProfissionalPsicologia()
+    public ProfissionalFisioterapia()
     {
 
     }
     //Fim do Construtor Padrão / End of Default Constructor;
 
 
-    public ProfissionalPsicologia(String nome, long cpf, Date dataNascimento, Endereco endereco,
+    public ProfissionalFisioterapia(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                                  float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
+                                    float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
 
-                                  String crp)
+                                    String crefito)
 
     {
         super(nome, cpf, dataNascimento, endereco,
@@ -40,15 +40,15 @@ public final class ProfissionalPsicologia extends Funcionario
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
-        this.crp = crp;
+        this.crefito = crefito;
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
-    public ProfissionalPsicologia(String nome, long cpf, Date dataNascimento, Endereco endereco,
+    public ProfissionalFisioterapia(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
                                   float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
 
-                                  String crp)
+                                  String crefito)
 
     {
         super(nome, cpf, dataNascimento, endereco,
@@ -58,14 +58,14 @@ public final class ProfissionalPsicologia extends Funcionario
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
 
-        this.crp = crp;
+        this.crefito = crefito;
     }
-    //Fim do Métodos Modificadores / End of Setters Methods;
+    //Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
 
-    public final String retornarCrp()
+    public String retornarCrefito()
     {
-        return crp;
+        return crefito;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 

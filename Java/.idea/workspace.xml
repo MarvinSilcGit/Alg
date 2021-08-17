@@ -9,22 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando e excluíndo / improving and excluding">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/IRecebeCrm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/MainProfissionaisSaude.java" afterDir="false" />
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="adicionando classes, pacotes e interface / adding classes, packages and interfaces">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/crm/EnviarDadosCrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/crm/MainCrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/regulador/IRecebeDadosCrm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalEnfermagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalFarmacia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFisioterapia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalFisioterapia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalMedicina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalPsicologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalPsicologia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/MainApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/Maca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MacaPes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MacaRodinha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MainMaca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/IEnviarDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/crm/ProfissionalFarmacia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Coren.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/MainReguladorProfissao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/crm/Crm.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +31,8 @@
       <list>
         <option value="package-info" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crm" />
       <recent name="br.com.dominio.reguladorprofissao.crm" />
       <recent name="br.com.dominio.api.pessoas.dados.ProfissionaisSaude" />
       <recent name="br.com.dominio.hospital.api.macas" />
       <recent name="br.com.dominio.hospital.alas.funcionarios.crp" />
-      <recent name="br.com.dominio.hospital.alas.funcionarios.crm.tratamento" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainDados">
@@ -173,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628631356272</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Aprimorando / improving">
-      <created>1628711839874</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1628711839874</updated>
     </task>
     <task id="LOCAL-00003" summary="Aprimorando / improving">
       <created>1628731128931</created>
@@ -517,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629212236516</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="adicionando classes, pacotes e interface / adding classes, packages and interfaces">
+      <created>1629213403801</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1629213403802</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,6 +545,7 @@
     <MESSAGE value="Aprimorando e modificando / improving and modifying" />
     <MESSAGE value="Aprimorando / improving" />
     <MESSAGE value="Aprimorando e excluíndo / improving and excluding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando e excluíndo / improving and excluding" />
+    <MESSAGE value="adicionando classes, pacotes e interface / adding classes, packages and interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando classes, pacotes e interface / adding classes, packages and interfaces" />
   </component>
 </project>
