@@ -1,7 +1,6 @@
-package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crm;
+package br.com.dominio.api.pessoas.dados.regulador.crm;
 
-
-public final class MainCrm
+public final class MainRegulador
 {
     public static void main (String [] args)
     {
@@ -11,4 +10,3 @@ public final class MainCrm
 
 }
 //Fim da classe / End of Class;
-

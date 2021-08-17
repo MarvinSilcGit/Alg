@@ -1,7 +1,7 @@
 package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crm;
 
 
-import br.com.dominio.api.pessoas.dados.regulador.IRecebeDadosCrm;
+import br.com.dominio.api.pessoas.dados.regulador.crm.IRecebeDadosCrm;
 
 //Fim dos Imports / End of Imports;
 
@@ -18,4 +18,60 @@ public final class EnviarDadosCrm implements IRecebeDadosCrm
     {
         return profissionalMedicina.retornarNome();
     }
+
+    @Override
+    public long cpfProfissional()
+    {
+        return profissionalMedicina.retornarCpf();
+    }
+
+    @Override
+    public String enderecoProfissional()
+    {
+        return profissionalMedicina.retornarEndereco();
+    }
+
+    @Override
+    public String setorProfissional()
+    {
+        return profissionalMedicina.retornarSetor();
+    }
+
+    @Override
+    public String funcaoProfissional()
+    {
+        return profissionalMedicina.retornarFuncao();
+    }
+
+    @Override
+    public String cargoProfissional()
+    {
+        return profissionalMedicina.retornarCargo();
+    }
+
+    @Override
+    public String emailProfissional()
+    {
+        return profissionalMedicina.retornarEmail();
+    }
+
+    @Override
+    public String sexualidadeProfissional()
+    {
+        return profissionalMedicina.retornarSexualidade();
+    }
+
+    @Override
+    public String sexoProfissional()
+    {
+        return profissionalMedicina.retornarSexo();
+    }
+
+    @Override
+    public String telefoneProfissional()
+    {
+        return profissionalMedicina.retornarTelefonePessoaFisica().retornarNumeroCompleto();
+    }
+
 }
+//Fim da Classe / End of Class;

@@ -16,7 +16,9 @@ import br.com.dominio.api.pessoas.dados.*;
 
 public final class ProfissionalMedicina extends Funcionario
 {
-    private String crm;
+    IRecebeDadosProfissional codigoCrm;
+
+    private static String crm;
 
     private ArrayList<Cidadao> listaPacientes = new ArrayList<>();
 
@@ -31,9 +33,7 @@ public final class ProfissionalMedicina extends Funcionario
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                                float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone,
-
-                                String crm)
+                                float salarioFixo, short expedienteSemanal, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone)
 
     {
         super(nome, cpf, dataNascimento, endereco,
@@ -42,16 +42,12 @@ public final class ProfissionalMedicina extends Funcionario
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
-
-        this.crm = crm;
     }
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
     public ProfissionalMedicina(String nome, long cpf, Date dataNascimento, Endereco endereco,
 
-                                float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal,
-
-                                String crm)
+                                float valorConsulta, String setor, String funcao, String cargo, String email, String sexualidade, String sexo, Date dataAdmissao, TelefonePessoaFisica telefone, short expedienteSemanal)
     {
         super(nome, cpf, dataNascimento, endereco,
 
@@ -59,18 +55,16 @@ public final class ProfissionalMedicina extends Funcionario
 
         //Fim do Método Super da Classe Mãe / End of Parent Class's Super Method;
 
-
-        this.crm = crm;
     }
     //Fim do Construtor Personalizado / Ends of Personalized Constructor;
 
 
-    public final String retornarCrm()
+    public String retornarCrm()
     {
-        return crm;
+        return codigoCrm.receberCrm();
     }
 
-    public final ArrayList<Cidadao> retornarListaPacientes()
+    public ArrayList<Cidadao> retornarListaPacientes()
     {
         return listaPacientes;
     }
