@@ -1,7 +1,9 @@
-package br.com.dominio.api.pessoas;
+package br.com.dominio.api.pessoas.dados.ProfissionaisSaude;
 
 
 import java.util.Date;
+
+import br.com.dominio.api.pessoas.Funcionario;
 
 import br.com.dominio.api.pessoas.dados.*;
 

@@ -21,7 +21,7 @@ public final class Departamento
 
     private final Hashtable<String, Double> listaDespesas = new Hashtable<>();
 
-    private ArrayList<String> listaEquipamentos = new ArrayList<>();
+    private ArrayList<Equipamento> listaEquipamentos = new ArrayList<>();
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -70,6 +70,11 @@ public final class Departamento
     {
         return listaDespesas;
     }
+
+    public ArrayList<Equipamento> retornarListaEquipamentso()
+    {
+        return listaEquipamentos;
+    }
     //Fim do Métodos Retornadores / End of Getter Methods;
 
 
@@ -116,6 +121,32 @@ public final class Departamento
         else
         {
             System.out.println("Essa Despesa não existe / This Expense don't exists");
+        }
+    }
+
+    public void inserirEquipamentoLista(Equipamento novoEquipamento)
+    {
+        if (listaEquipamentos.contains(novoEquipamento))
+        {
+            System.out.println("Já existe esse Equipamento / Already exists this Equipamento");
+        }
+
+        else
+        {
+            listaEquipamentos.add(novoEquipamento);
+        }
+    }
+
+    public void removerDespesaLista(Equipamento equipamento)
+    {
+        if (listaDespesas.contains(equipamento))
+        {
+            listaDespesas.remove(equipamento);
+        }
+
+        else
+        {
+            System.out.println("Essa Equipamento não existe / This Equipamento don't exists");
         }
     }
     //Fim do Métodos Modificadores / End of Setters Methods;

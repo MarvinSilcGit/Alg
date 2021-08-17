@@ -9,10 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando e modificando / improving and modifying">
+    <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando e excluíndo / improving and excluding">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/IRecebeCrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/MainProfissionaisSaude.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Equipamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/Equipamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalEnfermagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalEnfermagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalFarmacia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalFisioterapia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalFisioterapia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalMedicina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalMedicina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/ProfissionalPsicologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/ProfissionalPsicologia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/MainApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/Maca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MacaPes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MacaRodinha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/api/macas/MainMaca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/reguladorprofissao/Crm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,7 @@
         <option value="package-info" />
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.dominio.reguladorprofissao.crm" />
+      <recent name="br.com.dominio.api.pessoas.dados.ProfissionaisSaude" />
       <recent name="br.com.dominio.hospital.api.macas" />
       <recent name="br.com.dominio.hospital.alas.funcionarios.crp" />
       <recent name="br.com.dominio.hospital.alas.funcionarios.crm.tratamento" />
-      <recent name="br.com.dominio.hospital.alas.funcionarios.crm.cirurgia" />
-      <recent name="br.com.dominio.hospital.alas.funcionarios.crm" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainDados">
@@ -160,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628631356272</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Rebuilding the ancient classes / Reconstruindo classes antigas;">
-      <created>1628648947418</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1628648947418</updated>
     </task>
     <task id="LOCAL-00002" summary="Aprimorando / improving">
       <created>1628711839874</created>
@@ -497,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629209053344</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Aprimorando / improving">
+      <created>1629211919017</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1629211919017</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Aprimorando e excluíndo / improving and excluding">
+      <created>1629212236515</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1629212236516</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,8 +547,9 @@
     <MESSAGE value="adicionando classes e pacotes / adding classes and packages" />
     <MESSAGE value="utilizando o método toString / using the toString Method" />
     <MESSAGE value="adicionando classes, pacotes e métodos / adding classes, packages and methods" />
-    <MESSAGE value="Aprimorando / improving" />
     <MESSAGE value="Aprimorando e modificando / improving and modifying" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando e modificando / improving and modifying" />
+    <MESSAGE value="Aprimorando / improving" />
+    <MESSAGE value="Aprimorando e excluíndo / improving and excluding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimorando e excluíndo / improving and excluding" />
   </component>
 </project>
