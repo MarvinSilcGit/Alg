@@ -1,6 +1,8 @@
 package br.com.dominio.api.empresa.departamento;
 
 
+import java.util.ArrayList;
+
 import java.util.Hashtable;
 
 import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
@@ -10,13 +12,16 @@ import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
 
 public abstract class Departamento
 {
-    private String nome;
+    private String nome,
+            funcao;
 
     private Diretor diretor;
 
     private double orcamentoTrimestral;
 
     private final Hashtable<String, Double> listaDespesas = new Hashtable<>();
+
+    private ArrayList<String> listaEquipamento = new ArrayList<>();
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
@@ -28,9 +33,11 @@ public abstract class Departamento
     //Fim do Construtor Padrão / End of Default Constructor;
 
 
-    public Departamento(String nome, Diretor diretor, double orcamentoTrimestral)
+    public Departamento(String nome, String funcao, Diretor diretor, double orcamentoTrimestral)
     {
         this.nome = nome;
+
+        this.funcao = funcao;
 
         this.diretor = diretor;
 
@@ -42,6 +49,11 @@ public abstract class Departamento
     public final String retornarNome()
     {
         return nome;
+    }
+
+    public final String retornarFuncao()
+    {
+        return funcao;
     }
 
     public final String retornarDiretor()
@@ -64,6 +76,11 @@ public abstract class Departamento
     public final void alterarNome(String novoNome)
     {
         nome = novoNome;
+    }
+
+    public final void alterarFuncao(String novaFuncao)
+    {
+        funcao = novaFuncao;
     }
 
     public final void alterarDiretor(Diretor novoDiretor)
@@ -103,4 +120,5 @@ public abstract class Departamento
     }
     //Fim do Métodos Modificadores / End of Setters Methods;
 
-}//Fim da Classe / End of Class;
+}
+//Fim da Classe / End of Class;
