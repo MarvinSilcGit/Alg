@@ -1,7 +1,7 @@
 package br.com.dominio.api.pessoas.dados.regulador.crm;
 
 
-public interface IRecebeDadosCrm
+public interface IRecebeDadosProfissional
 {
     String nomeProfissional();
 
@@ -22,6 +22,8 @@ public interface IRecebeDadosCrm
     String sexoProfissional();
 
     String telefoneProfissional();
+
+    //Fim do Métodos Abstratos / End of Abstract Methods;
 
 }
 //Fim da Interface / End of Interface;

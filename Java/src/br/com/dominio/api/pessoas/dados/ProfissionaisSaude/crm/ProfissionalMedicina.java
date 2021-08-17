@@ -16,7 +16,7 @@ import br.com.dominio.api.pessoas.dados.*;
 
 public final class ProfissionalMedicina extends Funcionario
 {
-    IRecebeDadosProfissional codigoCrm;
+    IRecebeCrm codigoCrm;
 
     private static String crm;
 

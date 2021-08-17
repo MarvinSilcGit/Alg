@@ -1,12 +1,12 @@
 package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crm;
 
 
-import br.com.dominio.api.pessoas.dados.regulador.crm.IRecebeDadosCrm;
+import br.com.dominio.api.pessoas.dados.regulador.crm.IRecebeDadosProfissional;
 
 //Fim dos Imports / End of Imports;
 
 
-public final class EnviarDadosCrm implements IRecebeDadosCrm
+public final class EnviaDadosProfissional implements IRecebeDadosProfissional
 {
     private ProfissionalMedicina profissionalMedicina;
 
@@ -72,6 +72,7 @@ public final class EnviarDadosCrm implements IRecebeDadosCrm
     {
         return profissionalMedicina.retornarTelefonePessoaFisica().retornarNumeroCompleto();
     }
+    //Fim do Métodos Override / End of Override Methods;
 
 }
 //Fim da Classe / End of Class;

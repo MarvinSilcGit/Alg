@@ -1,7 +1,7 @@
 package br.com.dominio.api.pessoas.dados.ProfissionaisSaude.crm;
 
 
-public interface IRecebeDadosProfissional
+public interface IRecebeCrm
 {
     String receberCrm();
 }
