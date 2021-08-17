@@ -11,7 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/ChefeEquipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/funcionarios/Equipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/uti/Uti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/hospital/alas/uti/Uti.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,10 +138,10 @@
     <list>
       <item itemvalue="Application.MainDepartamento" />
       <item itemvalue="Application.MainHospital" />
-      <item itemvalue="JAR Application.MainApi" />
-      <item itemvalue="JAR Application.API.jar" />
       <item itemvalue="Application.MainApi" />
       <item itemvalue="Application.MainDados" />
+      <item itemvalue="JAR Application.MainApi" />
+      <item itemvalue="JAR Application.API.jar" />
     </list>
     <recent_temporary>
       <list>
@@ -475,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628974179406</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Aprimorando / improving">
+      <created>1628974197899</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1628974197899</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

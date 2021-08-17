@@ -16,7 +16,7 @@ import br.com.dominio.api.pessoas.dados.TelefonePessoaFisica;
 
 public final class ChefeEquipe extends Funcionario
 {
-    private static final ArrayList<Equipe> listaEquipe = new ArrayList<>(1);
+    private static final ArrayList<Funcionario> listaFuncionarios = new ArrayList<>(1);
 
     //Fim do Campo de Declaração de Atributos  / End of Attributes Declaration Field;
 
@@ -42,25 +42,25 @@ public final class ChefeEquipe extends Funcionario
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
-    public final ArrayList<Equipe> retornarListaEquipe()
+    public final ArrayList<Funcionario> retornarListaEquipe()
     {
-        return listaEquipe;
+        return listaFuncionarios;
     }
     //Fim dos Métodos Retornadores / End of Getters Methods;
 
 
-    public final void inserirEquipe(Equipe novaEquipe)
+    public final void inserirEquipe(Funcionario novaFuncionario)
     {
-        if (listaEquipe.size() == 0)
+        if (listaFuncionarios.size() == 0)
         {
-            if (listaEquipe.contains(novaEquipe))
+            if (listaFuncionarios.contains(novaFuncionario))
             {
                 System.out.println("Já existe essa Equipe");
             }
 
             else
             {
-                listaEquipe.add(novaEquipe);
+                listaFuncionarios.add(novaFuncionario);
             }
         }
 
@@ -70,11 +70,11 @@ public final class ChefeEquipe extends Funcionario
         }
     }
 
-    public final void removerEquipe(Equipe removerEquipe)
+    public final void removerEquipe(Funcionario removerFuncionario)
     {
-        if (listaEquipe.contains(removerEquipe))
+        if (listaFuncionarios.contains(removerFuncionario))
         {
-            listaEquipe.remove(removerEquipe);
+            listaFuncionarios.remove(removerFuncionario);
         }
 
         else
