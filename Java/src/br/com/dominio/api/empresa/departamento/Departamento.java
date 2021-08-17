@@ -21,7 +21,7 @@ public abstract class Departamento
 
     private final Hashtable<String, Double> listaDespesas = new Hashtable<>();
 
-    private ArrayList<String> listaEquipamento = new ArrayList<>();
+    private ArrayList<String> listaEquipamentos = new ArrayList<>();
 
     //Fim do Campo de Declaração de Atributos / End of Attributes Declaration Field;
 
