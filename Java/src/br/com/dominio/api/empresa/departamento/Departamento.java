@@ -10,7 +10,7 @@ import br.com.dominio.api.empresa.departamento.funcionarios.Diretor;
 //Fim dos Imports / End of Imports;
 
 
-public abstract class Departamento
+public final class Departamento
 {
     private String nome,
             funcao;
@@ -46,54 +46,54 @@ public abstract class Departamento
     //Fim do Construtor Personalizado / End of Personalized Constructor;
 
 
-    public final String retornarNome()
+    public String retornarNome()
     {
         return nome;
     }
 
-    public final String retornarFuncao()
+    public String retornarFuncao()
     {
         return funcao;
     }
 
-    public final String retornarDiretor()
+    public String retornarDiretor()
     {
         return diretor.retornarNome();
     }
 
-    public final double retornarOrcamentoTrimestral()
+    public double retornarOrcamentoTrimestral()
     {
         return orcamentoTrimestral;
     }
 
-    public final Hashtable<String, Double> retornarListaDespesas()
+    public Hashtable<String, Double> retornarListaDespesas()
     {
         return listaDespesas;
     }
     //Fim do Métodos Retornadores / End of Getter Methods;
 
 
-    public final void alterarNome(String novoNome)
+    public void alterarNome(String novoNome)
     {
         nome = novoNome;
     }
 
-    public final void alterarFuncao(String novaFuncao)
+    public void alterarFuncao(String novaFuncao)
     {
         funcao = novaFuncao;
     }
 
-    public final void alterarDiretor(Diretor novoDiretor)
+    public void alterarDiretor(Diretor novoDiretor)
     {
         diretor = novoDiretor;
     }
 
-    public final void alterOrcamentoTrimestral(double novoOrcamentoTrimestral)
+    public void alterOrcamentoTrimestral(double novoOrcamentoTrimestral)
     {
          orcamentoTrimestral = novoOrcamentoTrimestral;
     }
 
-    public final void inserirDespesaLista(String titulo, Double valor)
+    public void inserirDespesaLista(String titulo, Double valor)
     {
         if (listaDespesas.contains(titulo))
         {
@@ -106,7 +106,7 @@ public abstract class Departamento
         }
     }
 
-    public final void removerDespesaLista(String titulo)
+    public void removerDespesaLista(String titulo)
     {
         if (listaDespesas.contains(titulo))
         {
