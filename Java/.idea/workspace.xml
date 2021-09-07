@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34de3509-befc-4043-b5fa-521a356bdddc" name="Changes" comment="Aprimorando / improving">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/empresa/departamento/MainDepartamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/crefito/ProfissionalFisioterapia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dominio/api/pessoas/dados/ProfissionaisSaude/crefito/ProfissionalFisioterapia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,20 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628631356272</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Aprimorando / improving">
-      <created>1628777909711</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1628777909711</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Aprimorando / improving">
-      <created>1628778393011</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1628778393011</updated>
     </task>
     <task id="LOCAL-00009" summary="Aprimorando / improving">
       <created>1628781024440</created>
@@ -504,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630859210691</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Aprimorando / improving">
+      <created>1630861849260</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1630861849261</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Aprimorando / improving">
+      <created>1630861902727</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1630861902727</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
