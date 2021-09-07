@@ -50,7 +50,7 @@ public final class ProfissionalFisioterapia extends Funcionario
 
                                   String crefito)
 
-    {//
+    {
         super(nome, cpf, dataNascimento, endereco,
 
                 valorConsulta, setor, funcao, cargo, email, sexualidade, sexo, dataAdmissao, telefone, expedienteSemanal);
